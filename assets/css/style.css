@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     width: 80%;
     min-width: 365px;
+    position: relative;
     /*box-shadow: 7px 0px 0px 4px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -22,6 +23,11 @@ header
     height: 129px;
     background-image: linear-gradient(to bottom right,rgb(68, 3, 3) , rgb(247, 29, 29), rgb(247, 105, 105));
     border-bottom: 1px solid white;
+ 
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
 }
 #logo h1 , #logo h4 {
     font-family: Serif, serif;
@@ -33,7 +39,8 @@ header
  a
 { text-decoration: none;
     color: #ffffff;
-    
+    font-family: inherit;
+  
 }
 #logo {
     float: left;
@@ -89,11 +96,11 @@ nav
     
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: inherit;
     /*box-shadow: 10px 10px 0 0 rgb(65, 63, 63,  0.5);
      background: url(../images/ghadames-art1.jpg) no-repeat center center;
     background-size: cover;*/
-    
+    z-index: -1;
 }
 .img-slide
 {
@@ -109,14 +116,14 @@ nav
  min-width: 600px;
  
 }
-.img-slide p
+.cover-txt
 {
   
    position: absolute;
    bottom:5px;
    padding: 15px 10px;
    left:0px;
-  
+   letter-spacing: 2px;
    background-color: rgb(65, 63, 63,  0.5);
    width: 100%;
    color: white;
@@ -124,6 +131,7 @@ nav
    font-weight: bold;
    font-size: medium;
 }
+
 @keyframes slide {
     0%
     {transform: translateX(0);}
@@ -132,4 +140,46 @@ nav
     {
         transform: translateX(-100%);
     }
+}
+
+/* second section */
+#sd-section
+{
+    width: 100%;
+    clear: both;
+    padding: 10px;
+}
+#sd-section > div{
+   
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+#sd-section img{
+    position: relative;
+    width: 85%;
+    height: 170px;
+    padding: 10px;
+    min-width: 170px;
+}
+#sd-section h2{
+   
+    font-size: 130%;
+    
+}
+#sd-section p{
+    color: gray;
+}
+.left-side
+{
+ float: left;
+}
+.right-side
+{
+ float: right;
+ 
+}
+.middle-side
+{
+    margin: 0 auto;
 }
