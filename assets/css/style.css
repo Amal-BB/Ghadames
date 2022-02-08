@@ -134,18 +134,14 @@ nav
     width: 100%;
     overflow: hidden;
     position: inherit;
-    /*box-shadow: 10px 10px 0 0 rgb(65, 63, 63,  0.5);
-     background: url(../images/ghadames-art1.jpg) no-repeat center center;
-    background-size: cover;*/
+    
     z-index: -1;
 }
 .img-slide
 {
     
     width:100%;
-    
- /*animation: slide 20s infinite; */ 
-    
+  
 }
 .img-slide img
 {
@@ -169,14 +165,15 @@ nav
    font-size: medium;
 }
 
-@keyframes slide {
-    0%
-    {transform: translateX(0);}
-    
-    100%
-    {
-        transform: translateX(-100%);
-    }
+/* breif artical*/
+#brief-artical
+{
+    width:97%;
+    clear: both;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* second section */
