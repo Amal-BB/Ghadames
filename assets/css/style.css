@@ -10,10 +10,10 @@ body {
     font-weight: 200;
     color: #3a3a3a;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     min-width: 365px;
     position: relative;
-    /*box-shadow: 7px 0px 0px 4px rgba(0, 0, 0, 0.2);*/
+    
 }
 
 /* headings and logo */
@@ -146,7 +146,7 @@ nav
 .img-slide img
 {
  width: 100%;
- min-width: 600px;
+ min-width: 200px;
  
 }
 .cover-txt
@@ -196,11 +196,11 @@ nav
   
 #sd-section img{
     
-    width: 85%;
-    height: 170px;
+    width: 90%;
+    height: 200px;
     padding: 10px 0;
-    min-width: 170px;
-    max-width: 200px;
+    min-width: 200px;
+    max-width: 300px;
 }
 #sd-section h2{
    
