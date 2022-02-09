@@ -229,3 +229,57 @@ nav
   {
     border-right: 1px dotted gray;
   }
+
+  /* event section */
+#event-section
+{
+    width:100%;
+    margin-top: 10px;
+    background-color: rgb(65, 63, 63);
+   overflow: hidden;
+}
+#event-section > h2
+{
+   color:#ffffff;
+   margin: 10px 10px 5px ;
+   letter-spacing: 3px;
+}
+.event-column {
+    width: 47%;
+    float:left;
+    height: 180px;
+    padding: 10px 10px 15px ;
+
+}
+.event-continer
+{
+   padding-top: 30px  ;
+   text-align: center;
+   height: 10px;
+   margin: 0 auto; 
+}
+.event-continer h3, .event-continer h4,.event-continer p{
+    color: #ffffff;
+    margin: 5px ;
+    
+    letter-spacing: 1px;
+
+}
+.circle-div
+{
+    height: 180px;
+    width: 180px;
+    border-radius: 60%;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    float: left;
+}
+.right-circle-event {
+    background: url('../images/indus.jpg') no-repeat  center center;
+    background-size: cover;
+}
+.left-circle-event {
+    background: url('../images/Ghadames_fastival.PNG') no-repeat center center;
+    background-size: cover;
+}
