@@ -283,3 +283,44 @@ nav
     background: url('../images/Ghadames_fastival.PNG') no-repeat center center;
     background-size: cover;
 }
+/* footer */
+footer
+{
+    overflow: hidden;
+   background-image: linear-gradient(to bottom right,rgb(68, 3, 3) , rgb(247, 29, 29), rgb(247, 105, 105));
+    padding: 0;
+    border-top: 1px solid white;
+}
+.google-map
+{
+    float: left;
+    margin: 0;
+    height: 100%; 
+    text-align: center;
+}
+.google-map iframe
+{
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10%;
+    width: 300px;
+    height: 200px;
+}
+.social-networks
+{
+  height: 100%;  
+  margin: 0 auto;
+    text-align: center;
+    padding-top: 65px;
+}
+.social-networks li {
+  display: inline;
+
+}
+
+.social-networks i {
+  font-size: 150%;
+  margin:20px ;
+  
+ 
+}
