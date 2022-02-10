@@ -114,8 +114,7 @@ nav
  width: 100%;
  height: auto;
  object-fit: cover;
- min-width: 200px;
- min-height: 150px;
+ min-height: 230px;
 }
 .cover-txt
 {
@@ -281,6 +280,20 @@ footer
     text-align: center;
     padding-top: 65px;
 }
+.social-networks p{
+  color: #ffffff;
+  font-size:120% ;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.social-networks p a{
+    
+    font-size:70% ;
+  }
+  .social-networks p a:hover{
+    
+    font-size:90% ;
+  }
 .social-networks li {
   display: inline;
 
@@ -289,10 +302,26 @@ footer
 .social-networks i {
   font-size: 150%;
   margin:20px ;
-  
  
 }
+.social-networks i:hover {
+    font-size: 200%;
+  
+  }
+  .copyright
+  {
+      text-align: center;
+      width: 100%;
+      margin: 10px auto;
+  }
+  .copyright p
+  {
+      font-size: x-small;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #ffffff;
 
+  }
 
 /* Media queries */
 
@@ -315,6 +344,11 @@ footer
     .border-right
   {
     border: none;
+  }
+  .social-networks i {
+    
+    margin:15px ;
+   
   }
   }
   /* For  small screens size from 600px wide and down */
