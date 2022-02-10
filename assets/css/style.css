@@ -122,12 +122,16 @@ nav
   
    position: absolute;
    bottom:5px;
-   padding: 15px 10px;
    left:0px;
-   letter-spacing: 2px;
    background-color: rgb(65, 63, 63,  0.5);
    width: 100%;
-   color: white;
+   
+}
+.cover-txt p
+{
+    padding: 15px 10px;
+    letter-spacing: 2px;
+    color: white;
    font-style: italic;
    font-weight: bold;
    font-size: medium;
@@ -136,20 +140,23 @@ nav
 /* breif artical*/
 #brief-artical
 {
-    width:97%;
+    width:100%;
     clear: both;
-    margin: 10px;
-    letter-spacing: 1px;
-    font-size: 18px;
-    font-weight: bold;
+   
 }
-
+#brief-artical p
+{
+ padding: 10px;
+ letter-spacing: 1px;
+ font-size: 110%;
+ font-weight: 600;
+}
 /* second section */
 #sd-section
 {
     width: 100%;
     overflow: hidden;
-   padding: 10px 0;
+    padding: 10px 0;
     
 }
 #sd-section > div{
@@ -178,6 +185,8 @@ nav
 #sd-section p{
     
     text-align: left;
+    font-size: 100%;
+    font-weight: 600;
 }
 .left-side
 {
