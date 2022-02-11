@@ -20,7 +20,7 @@ body {
 header
 {
     width: 100%;
-    height: 129px;
+    height: 128px;
     background-image: linear-gradient(to bottom right,rgb(68, 3, 3) , rgb(247, 29, 29), rgb(247, 105, 105));
     border-bottom: 1px solid white;
  
@@ -44,10 +44,11 @@ header
 }
 #logo {
     float: left;
-    font-size: 130%;
-    padding :5px 0px 5px 30px;
+    font-size: 120%;
+    padding :5px 0px 10px 30px;
     width: 100%;
 }
+
 #logo h4{
     font-size: 80%;
     }
@@ -136,40 +137,67 @@ nav
    font-weight: bold;
    font-size: medium;
 }
-
-/* breif artical*/
-#brief-artical
+/* second section container */
+.snd-section
 {
-    width:100%;
-    clear: both;
-   
+    padding: 10px;
+    font-weight: 600;
+    overflow: auto;
+}
+     /* breif artical , About articals*/
+#brief-artical, .artical
+{
+    width:fit-content;
+    padding: 0 10px;
 }
 #brief-artical p
 {
- padding: 10px;
- letter-spacing: 1px;
+ 
+ letter-spacing: 0.9px;
  font-size: 110%;
- font-weight: 600;
+ text-align: justify;
+}
+.artical p
+{
+    font-size: 100%;
+    letter-spacing: 0.5px;
+    text-align: justify;
+
+}
+.artical h1{
+ font-size: 150%;
+ padding-bottom:10px ;
+ font-weight: bold;
+}
+.artical .photo{
+    
+    text-align: center;
+    margin: 10px auto;
+    
+}
+.photo img{
+    width: 80%;
+    height: auto;
+    min-width: 200px;
 }
 /* second section */
-#sd-section
+#snd-artical
 {
     width: 100%;
     overflow: hidden;
-    padding: 10px 0;
-    
+    padding-top:15px ;   
 }
-#sd-section > div{
+#snd-artical > div{
    
     text-align: center;
-    padding: 10px;
+    padding: 10px ;
     width: 30%;
     height: 100%;
     overflow: hidden;
 }
 
   
-#sd-section img{
+#snd-artical img{
     
     width: 85%;
     height: 200px;
@@ -177,16 +205,16 @@ nav
     min-width: 200px;
     max-width: 300px;
 }
-#sd-section h2{
+#snd-artical h2{
    
     font-size: 130%;
     
 }
-#sd-section p{
+#snd-artical p{
     
     text-align: left;
     font-size: 100%;
-    font-weight: 600;
+   
 }
 .left-side
 {
@@ -210,8 +238,9 @@ nav
   /* event section */
 #event-section
 {
-    width:100%;
+    width:auto;
     margin-top: 10px;
+    padding: 10px;
     background-color: rgb(65, 63, 63);
    overflow: hidden;
 }
@@ -265,7 +294,7 @@ footer
 {
     overflow: hidden;
    background-image: linear-gradient(to bottom right,rgb(68, 3, 3) , rgb(247, 29, 29), rgb(247, 105, 105));
-    padding: 0;
+    padding: 5px 10px;
     border-top: 1px solid white;
 }
 .google-map
@@ -288,7 +317,7 @@ footer
   height: 100%;  
   margin: 0 auto;
     text-align: center;
-    padding-top: 65px;
+    padding-top: 50px;
 }
 .social-networks p{
   color: #ffffff;
@@ -322,7 +351,7 @@ footer
   {
       text-align: center;
       width: 100%;
-      margin: 10px auto;
+      margin: 20px auto;
   }
   .copyright p
   {
@@ -347,7 +376,7 @@ footer
 /* For  small screens size from 800px wide and down */
   @media screen and (max-width: 800px) {
     
-    #sd-section > div {
+    #snd-artical > div {
       width: 95%;
       clear: both ;
       float: none;
@@ -417,7 +446,7 @@ footer
     #logo {
         
       width: 95%;
-       padding: 5px 10px;
+       padding-left: 20px;
     }
   }
   /* For  screens size from 601px wide and up */
