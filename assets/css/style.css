@@ -165,20 +165,24 @@ nav
 
 }
 .artical h1{
- font-size: 150%;
+ font-size: 160%;
  padding-bottom:5px ;
- font-weight: bold;
+ font-weight: 900;
+ letter-spacing: 1px;
+ 
 }
 .artical .photo{
     
     text-align: center;
     margin: 15px auto;
-    
+   
 }
 .photo img{
     width: 85%;
     height: auto;
     min-width: 200px;
+    border:2px solid gray;
+    
 }
 /* second section */
 #snd-artical
