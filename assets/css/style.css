@@ -177,11 +177,13 @@ nav
     margin: 15px auto;
    
 }
-.photo img{
+div.photo img{
     width: 85%;
     height: auto;
     min-width: 200px;
-    border:2px solid gray;
+    border: 1px solid rgb(214, 211, 211); 
+    border-radius: 4px;  
+    padding: 5px; 
     
 }
 /* second section */
@@ -348,8 +350,8 @@ footer
  
 }
 .social-networks i:hover {
-    font-size: 200%;
-  
+    
+    transform: scale(1.5, 1.5);
   }
   .copyright
   {
@@ -424,6 +426,10 @@ footer
     z-index: 997;
     padding: 30px 0 0 0;
     background-color:rgba(36, 32, 32, 0.8);
+    transition: .5s ease;
+    
+ /* transform: translate(-2px, 0);
+  -ms-transform: translate(-50%, -50%);*/
 }
 #nav-burger:checked ~ #nav-bar li {
     
