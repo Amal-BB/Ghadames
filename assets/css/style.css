@@ -189,9 +189,10 @@ div.photo img{
     /* gellary */
  div.gallery-video 
  {
-    width: 50%;
-    margin: 5px 0 20px 5px;
+    width: 60%;
+    margin: 5px 20px 5px 0;
     float: left;
+    
     
  } 
  div.gallery-video iframe
@@ -200,26 +201,37 @@ div.photo img{
      height: auto;
      min-width: 300px;
      min-height: 300px;
+     display: block;
  } 
  div.gallery-image
  {
-    width: 30%;
-    height: auto;
-    margin: 5px 0 10px 5px;
+    width: 32%;
+    margin: 5px 10px 5px 0;
     float: left;
     border: 1px solid #ccc;
-    
+    overflow: hidden;
+    min-width: 250px;
+    height: 300px;
+    text-align: center;
  }  
+#first-img
+{
+    width: 35%;
+    margin: 5px 0;
+    
+}
+ 
  div.gallery-image img
  {
     width: 100%;
     height: auto;
     min-width: 250px;
-    min-height: 250px;
+    height: 250px;
  } 
  div.desc {
-    padding: 15px;
+    padding: 10px ;
     text-align: center;
+
   } 
     /* second section */
 #snd-artical
