@@ -11,10 +11,9 @@ body {
     color: #3a3a3a;
     margin: 0 auto;
     width: 85%;
-    min-width: 350px;
+    min-width:min-content ;
     position: relative;
-    
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 /* headings and logo */
 header
@@ -46,7 +45,8 @@ header
     float: left;
     font-size: 120%;
     padding :5px 0px 10px 30px;
-    width: 100%;
+     width: fit-content;
+     
 }
 
 #logo h4{
@@ -57,6 +57,8 @@ nav
 {
     float: right;
     padding:5px 5px 0 5px ;
+    width: 98%;
+    text-align: right;
    
 }
 #nav-bar {
@@ -171,6 +173,10 @@ nav
  letter-spacing: 1px;
  
 }
+div.text, div.photo
+{
+    width: 100%;
+}
 div.photo{
     
     text-align: center;
@@ -231,8 +237,9 @@ div.photo img{
  div.desc {
     padding: 10px ;
     text-align: center;
-
+    
   } 
+ 
     /* second section */
 #snd-artical
 {
@@ -306,7 +313,7 @@ div.photo img{
 .event-column {
     width: 47%;
     float:left;
-    height: 180px;
+    height: fit-content;
     padding: 10px 10px 15px ;
 
 }
@@ -314,7 +321,7 @@ div.photo img{
 {
    padding-top: 30px  ;
    text-align: center;
-   height: 10px;
+   height: fit-content;
    margin: 0 auto; 
 }
 .event-continer h3, .event-continer h4,.event-continer p{
@@ -333,6 +340,7 @@ div.photo img{
     border-color: #ccc;
     border-width: 1px;
     float: left;
+    margin-bottom: 5px;
 }
 .right-circle-event {
     background: url('../images/indus.jpg') no-repeat  center center;
@@ -408,7 +416,7 @@ footer
   }
   .copyright p
   {
-      font-size: x-small;
+      font-size: 58%;
       font-weight: 500;
       letter-spacing: 1px;
       color: #ffffff;
