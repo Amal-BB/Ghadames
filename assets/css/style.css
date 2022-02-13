@@ -45,7 +45,7 @@ header
     float: left;
     font-size: 120%;
     padding :5px 0px 10px 30px;
-     width: fit-content;
+    width: fit-content;
      
 }
 
@@ -510,7 +510,7 @@ footer
     }
     #logo {
         
-      width: 95%;
+      width: fit-content;
        padding-left: 20px;
     }
   }
