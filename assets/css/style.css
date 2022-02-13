@@ -196,7 +196,7 @@ div.photo img{
     /* gellary */
  div.gallery-video 
  {
-    width: 60%;
+    width: 60.6%;
     margin: 5px 20px 5px 0;
     float: left;
     
@@ -206,24 +206,24 @@ div.photo img{
  {
      width: 100%;
      height: auto;
-     min-width: 300px;
+     min-width: 200px;
      min-height: 300px;
      display: block;
  } 
  div.gallery-image
  {
-    width: 32%;
-    margin: 5px 10px 5px 0;
+    width: 31.4%;
+    margin: 5px ;
     float: left;
     border: 1px solid #ccc;
     overflow: hidden;
-    min-width: 250px;
+    min-width: 200px;
     height: 300px;
     text-align: center;
  }  
 #first-img
 {
-    width: 35%;
+    width: 36%;
     margin: 5px 0;
     
 }
@@ -433,7 +433,19 @@ footer
       width: 95%;
       clear: both;
     }
-  
+    div.gallery-video 
+    {
+       width: 95%;
+       min-height: auto;
+       margin: 5px auto;
+       float: none;
+     }
+     #first-img
+   {
+       width: 31.4%;
+       margin: 5px ;
+       
+   }
   }
 /* For  small screens size from 800px wide and down */
   @media screen and (max-width: 800px) {
@@ -452,7 +464,17 @@ footer
     margin:15px ;
    
   }
-  }
+ 
+}
+@media screen and (max-width:790px){
+    
+    div.gallery-image, #first-img
+    {
+        width: 47.4%;
+        
+    }
+    
+}
   /* For  small screens size from 600px wide and down */
   @media screen and (max-width: 600px) {
     body{
@@ -513,6 +535,12 @@ footer
         
       width: fit-content;
        padding-left: .7em;
+    }
+    div.gallery-image, #first-img
+    {
+        width: 80%;
+        float: none;
+        margin: 10px auto;
     }
   }
   /* For  screens size from 601px wide and up */
