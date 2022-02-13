@@ -65,6 +65,7 @@ nav
     font-size: 110%;
     letter-spacing: 3px;
     line-height: 45px;
+    
 }
 #nav-bar li {
    
@@ -81,7 +82,7 @@ nav
     cursor: pointer;
     color: #ffffff;
     z-index: 998;
-    font-size: 130%;
+    font-size: 140%;
 }
 #nav-bar a {
     text-decoration: none;
@@ -521,7 +522,12 @@ footer
         display: none;
     }
     
-
+    #nav-bar {
+        
+        position: absolute;
+        bottom: 0px;
+        right:5px;
+    }
 #nav-bar li {
    
     display: inline-block;
