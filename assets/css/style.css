@@ -43,14 +43,14 @@ header
 }
 #logo {
     float: left;
-    font-size: 120%;
     padding :5px 0px 10px 30px;
     width: fit-content;
-     
+    font-size: 120%; 
 }
 
+
 #logo h4{
-    font-size: 80%;
+    font-size: .8em;
     }
 /* navigation links */
 nav
@@ -358,6 +358,7 @@ footer
    background-image: linear-gradient(to bottom right,rgb(68, 3, 3) , rgb(247, 29, 29), rgb(247, 105, 105));
     padding: 5px 10px;
     border-top: 1px solid white;
+    font-size: 100%;
 }
 .google-map
 {
@@ -417,7 +418,7 @@ footer
   }
   .copyright p
   {
-      font-size: 58%;
+      font-size: .58em;
       font-weight: 500;
       letter-spacing: 1px;
       color: #ffffff;
@@ -533,8 +534,9 @@ footer
     }
     #logo {
         
-      width: fit-content;
+       width: fit-content;
        padding-left: .7em;
+       font-size: 105%;
     }
     div.gallery-image, #first-img
     {
