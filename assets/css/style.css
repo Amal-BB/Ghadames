@@ -266,7 +266,7 @@ div.photo img{
 {
     width: fit-content;
     overflow: hidden;
-    padding-top:15px ;   
+    padding-top:25px ;   
 }
 #snd-artical > div{
    
@@ -282,7 +282,7 @@ div.photo img{
     
     width: 85%;
     height: 200px;
-    margin: 10px 0;
+    margin: 15px 0;
     min-width: 200px;
     max-width: 300px;
     border: 2px solid var(--light_gray);
@@ -296,6 +296,7 @@ div.photo img{
     
     text-align: left;
     font-size: 100%;
+    margin-bottom: 10px;
    
 }
 .left-side
