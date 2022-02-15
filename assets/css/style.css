@@ -178,7 +178,7 @@ nav
 #brief-artical p
 {
  
- letter-spacing: 0.9px;
+ letter-spacing: 0.8px;
  font-size: 110%;
  
 }
@@ -244,7 +244,7 @@ div.photo img{
 #first-img
 {
     width: 36%;
-    margin: 5px 0;
+    margin: 5px 0 10px;
     
 }
  
@@ -464,7 +464,7 @@ footer
      #first-img
    {
        width: 31.4%;
-       margin: 5px ;
+       margin: 10px 5px ;
        
    }
   }
