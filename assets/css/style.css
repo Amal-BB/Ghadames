@@ -4,6 +4,13 @@
     padding: 0;
     border: none;
 }
+/*Set the text-size-adjust for all browsers*/
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  /* declare some global varible */
 :root {
     --light_gray: #ccc;
     --dark_gray: #3a3a3a;
@@ -15,7 +22,6 @@
 }
 body {
     font-family: Lato, sans-serif;
-    font-size:100%;
     font-weight: 200;
     color: var(--dark_gray);
     margin: 0 auto;
@@ -173,8 +179,6 @@ nav
 {
     font-size: 100%;
     letter-spacing: 0.5px;
-   
-
 }
 .artical h1{
  font-size: 160%;
