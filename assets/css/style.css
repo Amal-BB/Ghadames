@@ -153,19 +153,20 @@ nav
 {
     width:fit-content;
     padding: 0 10px;
+    text-align: justify;
 }
 #brief-artical p
 {
  
  letter-spacing: 0.9px;
  font-size: 110%;
- text-align: justify;
+ 
 }
 .artical p
 {
     font-size: 100%;
     letter-spacing: 0.5px;
-    text-align: justify;
+   
 
 }
 .artical h1{
@@ -245,7 +246,7 @@ div.photo img{
     /* second section */
 #snd-artical
 {
-    width: auto;
+    width: fit-content;
     overflow: hidden;
     padding-top:15px ;   
 }
