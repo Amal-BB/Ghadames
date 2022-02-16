@@ -27,7 +27,7 @@ html {
     --nav_hover_color:rgba(126, 43, 43, 0.7);
 }
 #logo{
-    --logo_font_size:120%;
+    --logo_font_size:90%;
 }
 
 /* page style */
@@ -106,7 +106,7 @@ nav
    
     position: absolute;
     right: 10px;
-    top:10px;
+    top:5px;
     overflow: hidden;
     cursor: pointer;
     z-index: 998;
@@ -188,14 +188,15 @@ nav
  font-size: 110%;
  
 }
-.artical p
+.artical .text p
 {
     font-size: 100%;
     letter-spacing: 0.5px;
 }
-.artical h1{
- font-size: 160%;
- padding-bottom:5px ;
+.artical .text h1{
+ 
+font-size: 160%;
+ padding-bottom:10px ;
  font-weight: 900;
  letter-spacing: 1px;
  
@@ -207,7 +208,7 @@ div.text, div.photo
 div.photo{
     
     text-align: center;
-    margin: 15px auto;
+    margin: 15px auto 20px;
    
 }
 div.photo img{
@@ -239,7 +240,7 @@ div.photo img{
  div.gallery-image
  {
     width: 31.4%;
-    margin: 10px 5px;
+    margin: 15px 5px ;
     float: left;
     border: 1px solid var(--light_gray);
     overflow: hidden;
@@ -302,6 +303,7 @@ div.photo img{
     
     text-align: left;
     font-size: 100%;
+    letter-spacing: .5px;
     margin-bottom: 10px;
    
 }
@@ -465,13 +467,13 @@ footer
     {
        width: 95%;
        min-height: auto;
-       margin: 5px auto;
+       margin: 15px auto;
        float: none;
      }
      #first-img
    {
        width: 31.4%;
-       margin: 10px 5px ;
+       margin: 15px 5px ;
        
    }
   }
@@ -549,6 +551,17 @@ footer
     padding: 0;
 
 }
+header{
+    height: 100px;
+}
+.mobile-menu{
+    display: block;
+}
+#logo {
+    
+   padding-left: .7em;
+   --logo_font_size:90%;
+}
     .google-map
     {
         width: 95%;
@@ -562,24 +575,20 @@ footer
         width: 100%;
         
     }
-    .mobile-menu{
-        display: block;
-    }
-    #logo {
-        
-       padding-left: .7em;
-       --logo_font_size:105%;
-    }
+    
     div.gallery-image, #first-img
     {
         width: 80%;
         float: none;
-        margin: 10px auto;
+        margin: 15px auto;
     }
   }
   /* For  screens size from 601px wide and up */
   @media screen and (min-width: 601px) {
-   
+    #logo {
+        
+        --logo_font_size:120%;
+     }
     .mobile-menu{
         display: none;
     }
