@@ -4,13 +4,19 @@
     padding: 0;
     border: none;
 }
-/*Set the text-size-adjust for all browsers*/
+
+/* Set the text-size-adjust for all browsers*/
+/* https://stackoverflow.com/questions/40892327/why-is-font-size-changing-depending-on-portrait-or-landscape-for-mobile-devices*/
+
 html {
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
   }
+
   /* Variable declarations  */
+  /* https://www.w3schools.com/css/css3_variables_mediaqueries.asp */
+
 :root {
     --light_gray: #ccc;
     --dark_gray: #3a3a3a;
@@ -34,6 +40,8 @@ body {
     width: 85%;
     min-width:min-content ;
     position: relative;
+   
+    /* https://www.w3schools.com/css/css3_shadows_box.asp */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 /* headings and logo */
@@ -102,13 +110,11 @@ nav
     overflow: hidden;
     cursor: pointer;
     z-index: 998;
-    font-size: 140%;
+    font-size: 150%;
 }
 #nav-bar a {
-    text-decoration: none;
-    
+   
     width: 100px;
-    
     display: block;
    
 }
@@ -497,6 +503,13 @@ footer
     }
     
 }
+ /* For  small screens size from 450px wide and down */
+ @media screen and (max-width: 450px) {
+    #logo {
+        
+        --logo_font_size:90%;
+     }
+ }
   /* For  small screens size from 600px wide and down */
   @media screen and (max-width: 600px) {
     body{
@@ -512,6 +525,7 @@ footer
     cursor: pointer;
     opacity: 0;
 }
+/*build a CSS ONLY Animated Hamburger Menu tutorial  https://www.youtube.com/watch?v=kKRpeFk613I  */
 #nav-burger:checked + label {
     
     transform: rotate(45deg);
@@ -528,8 +542,6 @@ footer
     background-color:var(--nav_color);
     transition: 0.5s linear;
     
- /* transform: translate(-2px, 0);
-  -ms-transform: translate(-50%, -50%);*/
 }
 #nav-burger:checked ~ #nav-bar li {
     
