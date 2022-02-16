@@ -505,13 +505,8 @@ footer
     }
     
 }
- /* For  small screens size from 450px wide and down */
- @media screen and (max-width: 450px) {
-    #logo {
-        
-        --logo_font_size:90%;
-     }
- }
+ 
+
   /* For  small screens size from 600px wide and down */
   @media screen and (max-width: 600px) {
     body{
