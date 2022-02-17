@@ -508,7 +508,7 @@ footer
  /*  Contact page */
  /* Style inputs */
 input[type=text], input[type=email], textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border: 1px solid var(--light_gray);
     margin-top: 6px;
@@ -528,13 +528,19 @@ input[type=text], input[type=email], textarea {
     background-color: var(--nav_hover_color);
   }
   
-  
+  .contact-container img 
+  {
+    width: 100%;
+    min-width: 230px;
+    min-height: 180px;
+    margin-top: 20px;
+  }
   /* Create two columns that float next to eachother */
  .contact-container .column {
     float: left;
-    width: 50%;
+    width: 45%;
     margin-top: 6px;
-    padding: 20px;
+    padding: 10px;
   }
   
   /* Clear floats after the columns */
@@ -616,7 +622,7 @@ header{
     }
 /* make the two columns of contact stack on top of each other instead of next to each other */
 .contact-container .column, input[type=submit] {
-        width: 100%;
+        width: 95%;
         margin-top: 0;
       }
   }
