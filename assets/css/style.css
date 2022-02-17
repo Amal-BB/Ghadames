@@ -530,7 +530,7 @@ input[type=text], input[type=email], textarea {
   
   
   /* Create two columns that float next to eachother */
-  .column {
+ .contact-container .column {
     float: left;
     width: 50%;
     margin-top: 6px;
@@ -538,7 +538,7 @@ input[type=text], input[type=email], textarea {
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  .contact-container .row:after {
     content: "";
     display: table;
     clear: both;
@@ -615,7 +615,7 @@ header{
         margin: 15px auto;
     }
 /* make the two columns of contact stack on top of each other instead of next to each other */
-    .column, input[type=submit] {
+.contact-container .column, input[type=submit] {
         width: 100%;
         margin-top: 0;
       }
