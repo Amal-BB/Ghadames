@@ -188,14 +188,15 @@ nav
  font-size: 110%;
  
 }
-.artical .text p
+.artical .text p, .contact-container p, .contact-container h3
 {
     font-size: 100%;
     letter-spacing: 0.5px;
 }
-.artical .text h1{
+.artical .text h1 , .contact-container h1
+{
  
-font-size: 160%;
+ font-size: 160%;
  padding-bottom:10px ;
  font-weight: 900;
  letter-spacing: 1px;
