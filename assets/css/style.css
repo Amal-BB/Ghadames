@@ -543,7 +543,10 @@ input[type=text], input[type=email], textarea {
     margin-top: 6px;
     padding: 10px;
   }
-  
+  .contact-container .row {
+      margin: 10px auto;
+  }
+
   /* Clear floats after the columns */
   .contact-container .row:after {
     content: "";
