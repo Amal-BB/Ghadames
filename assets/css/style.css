@@ -513,7 +513,7 @@ footer
  /*  Contact page */
  /* Style inputs */
 input[type=text], input[type=email], textarea {
-    width: 90%;
+    width: 95%;
     padding: 12px;
     border: 1px solid var(--light_gray);
     margin-top: 6px;
@@ -527,6 +527,7 @@ input[type=text], input[type=email], textarea {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    height: 50px;
   }
   
   input[type=submit]:hover {
@@ -558,13 +559,11 @@ input[type=text], input[type=email], textarea {
     clear: both;
   }
 
-  /* For  small screens size from 600px wide and down */
-  @media screen and (max-width: 600px) {
-    body{
-        width: 100%;
-        
-    }
-    #nav-bar li{
+   /* For  small screens size from 470px wide and down */
+  @media  screen and (max-width:470px) {
+      
+/* change inline navigation menu to burger menu */
+ #nav-bar li{
         display: none;
     }  
 #nav-burger
@@ -608,6 +607,16 @@ header{
    padding-left: .7em;
    --logo_font_size:90%;
 }
+      
+  }
+
+  /* For  small screens size from 600px wide and down */
+  @media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        
+    }
+   
     .google-map
     {
         width: 95%;
@@ -636,11 +645,10 @@ header{
       input[type=submit]
       {
         width: 100%; 
-        height: 50px;
       }
   }
   /* For  screens size from 601px wide and up */
-  @media screen and (min-width: 601px) {
+  @media screen and (min-width: 471px) {
     #logo {
         
         --logo_font_size:120%;
