@@ -174,7 +174,7 @@ nav
 /* second section container */
 .snd-section
 {
-    padding: 10px;
+    padding: 10px 20px;
     font-weight: 600;
     overflow: auto;
 }
@@ -182,7 +182,7 @@ nav
 #brief-artical, .artical
 {
     width:fit-content;
-    padding: 0 10px;
+    padding: 0 ;
     text-align: justify;
 }
 #brief-artical p
@@ -276,15 +276,15 @@ div.photo img{
     /* second section */
 #snd-artical
 {
-    width: fit-content;
+    width: 100%;
     overflow: hidden;
     padding-top:25px ;   
 }
 #snd-artical > div{
    
     text-align: center;
-    padding: 10px ;
-    width: 30%;
+    padding: 10px 0 ;
+    width: 32.5%;
     height: 100%;
     overflow: hidden;
 }
@@ -295,7 +295,7 @@ div.photo img{
     width: 85%;
     height: 200px;
     margin: 15px 0;
-    min-width: 200px;
+    min-width: 180px;
     max-width: 300px;
     border: 2px solid var(--light_gray);
 }
@@ -310,7 +310,7 @@ div.photo img{
     font-size: 100%;
     letter-spacing: .5px;
     margin-bottom: 10px;
-   
+    padding:0 5px;
 }
 .left-side
 {
@@ -486,7 +486,7 @@ footer
   @media screen and (max-width: 800px) {
     
     #snd-artical > div {
-      width: fit-content;
+      width: 100%;
       clear: both ;
       float: none;
     }
@@ -559,8 +559,8 @@ input[type=text], input[type=email], textarea {
     clear: both;
   }
 
-   /* For  small screens size from 480px wide and down */
-  @media  screen and (max-width:480px) {
+   /* For  small screens size from 490px wide and down */
+  @media  screen and (max-width:490px) {
       
 /* change inline navigation menu to burger menu */
  #nav-bar li{
@@ -647,8 +647,8 @@ header{
         width: 100%; 
       }
   }
-  /* For  screens size from 481px wide and up */
-  @media screen and (min-width: 481px) {
+  /* For  screens size from 491px wide and up */
+  @media screen and (min-width: 491px) {
     #logo {
         
         --logo_font_size:120%;
