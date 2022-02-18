@@ -192,7 +192,7 @@ nav
  font-size: 110%;
  
 }
-.artical .text p, .contact-container p, .contact-container h3
+.artical .text p, .contact-container p
 {
     font-size: 100%;
     letter-spacing: 0.5px;
@@ -201,7 +201,7 @@ nav
 {
  
  font-size: 160%;
- padding-bottom:10px ;
+ padding-bottom:15px ;
  font-weight: 900;
  letter-spacing: 1px;
  
@@ -629,9 +629,14 @@ header{
         margin: 15px auto;
     }
 /* make the two columns of contact stack on top of each other instead of next to each other */
-.contact-container .column, input[type=submit] {
+.contact-container .column {
         width: 95%;
         margin-top: 0;
+      }
+      input[type=submit]
+      {
+        width: 100%; 
+        height: 50px;
       }
   }
   /* For  screens size from 601px wide and up */
