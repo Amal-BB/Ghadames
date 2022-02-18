@@ -453,11 +453,61 @@ footer
   }
   .copyright p
   {
-      font-size: .58em;
+      font-size: .6em;
       font-weight: 500;
       letter-spacing: 1px;
 
   }
+
+ /*  Contact page */
+ /* Style inputs */
+ input[type=text], input[type=email], textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid var(--light_gray);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: var(--nav_color);
+    color: var(--white);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--nav_hover_color);
+  }
+  
+  .contact-container img 
+  {
+    width: 100%;
+    min-width: 210px;
+    min-height: 180px;
+    margin-top: 20px;
+  }
+  /* Create two columns that float next to eachother */
+ .contact-container .column {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+    padding: 10px;
+  }
+  .contact-container .row {
+      margin: 10px auto;
+  }
+
+  /* Clear floats after the columns */
+  .contact-container .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 /* Media queries */
 
@@ -510,54 +560,6 @@ footer
     }
     
 }
- /*  Contact page */
- /* Style inputs */
-input[type=text], input[type=email], textarea {
-    width: 95%;
-    padding: 12px;
-    border: 1px solid var(--light_gray);
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: var(--nav_color);
-    color: var(--white);
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    height: 50px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: var(--nav_hover_color);
-  }
-  
-  .contact-container img 
-  {
-    width: 100%;
-    min-width: 230px;
-    min-height: 180px;
-    margin-top: 20px;
-  }
-  /* Create two columns that float next to eachother */
- .contact-container .column {
-    float: left;
-    width: 45%;
-    margin-top: 6px;
-    padding: 10px;
-  }
-  .contact-container .row {
-      margin: 10px auto;
-  }
-
-  /* Clear floats after the columns */
-  .contact-container .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
    /* For  small screens size from 490px wide and down */
   @media  screen and (max-width:490px) {
@@ -638,14 +640,11 @@ header{
         margin: 15px auto;
     }
 /* make the two columns of contact stack on top of each other instead of next to each other */
-.contact-container .column {
+.contact-container .column, input[type=submit] {
         width: 95%;
         margin-top: 0;
       }
-      input[type=submit]
-      {
-        width: 100%; 
-      }
+     
   }
   /* For  screens size from 491px wide and up */
   @media screen and (min-width: 491px) {
