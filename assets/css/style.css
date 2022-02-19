@@ -66,7 +66,7 @@ header
     width: fit-content;
     font-size: var(--logo_font_size);
 }
-#logo h1 , #logo h4 {
+#logo h1 , #logo h2 {
     font-family: Serif, serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -81,7 +81,7 @@ header
   
 }
 
-#logo h4{
+#logo h2{
     font-size: .8em;
     }
 
