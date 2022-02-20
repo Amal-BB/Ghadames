@@ -72,23 +72,22 @@
 ## User Goals
 
 
- . Knowledge of the most valuable information about Ghadames city and its heritage town. 
+ . Knowledge of the most valuable information about Ghadames and its heritage town. 
 
  . Find any available events dates and locations.
 
  . Navigate easily through clear, organized, and attractive layout colors and images. 
 
- . Get helpful information about the city in case he is interesting to visit.
+ . Get helpful information about the city in case he is interesting to visit it.
 
  . Easy way to contact the site owner to plan the city visit or for any other inquiry.
 
----
 
 ## Owner Goals
 
 . Introduce Ghadames, its civilization, and its heritage. 
 
- . Show information about Ghadames and the old town in an interesting way.
+ . Show the valuable information about Ghadames and the old town in an interesting way.
 
  . Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
 
