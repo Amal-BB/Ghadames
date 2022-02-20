@@ -17,9 +17,9 @@ html {
 :root {
     --light_gray: #ccc;
     --dark_gray: #3a3a3a;
-    --gray: rgb(65, 63, 63);
+    --gray: #413F3F;
     --white: #ffffff;
-    --linear_color: linear-gradient(to bottom right, rgb(68, 3, 3), rgb(247, 29, 29), rgb(247, 105, 105));
+    --linear_color: linear-gradient(to bottom right, #440303, #F71D1D, #F76969);
     --nav_color: rgba(36, 32, 32, 0.8);
     --nav_hover_color: rgba(126, 43, 43, 0.7);
 }
@@ -430,7 +430,11 @@ footer {
 }
 
 /*  Contact page */
-/* Style inputs */
+/* Style inputs and labels */
+.content-section label{
+     display: flex;
+}
+
 input[type=text],
 input[type=email],
 textarea {
