@@ -80,7 +80,7 @@
 
  . Get helpful information about the city in case he is interesting to visit it.
 
- . Easy way to contact the site owner to plan the city visit or for any other inquiry.
+ . Easy way to contact the site owner to get help to arrange his visit to the city or for any other inquiry.
 
 
 ## Owner Goals
