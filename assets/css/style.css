@@ -432,7 +432,7 @@ footer {
 /*  Contact page */
 /* Style inputs and labels */
 .content-section label{
-     display: flex;
+     display: block;
 }
 
 input[type=text],
