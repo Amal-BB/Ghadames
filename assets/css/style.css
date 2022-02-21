@@ -508,7 +508,7 @@ input[type=submit]:hover {
 
 /* For  small screens size from 800px wide and down */
 @media screen and (max-width: 800px) {
-    #snd-artical>div {
+    .second-artical > div {
         width: 100%;
         clear: both;
         float: none;
