@@ -67,7 +67,7 @@
 #### <a href="https://amal-bb.github.io/Ghadames/" target="_blank"> click here to view the site </a>
 
 
-## User Stories
+### **User Stories**
 
 . As a first time visitor user, I would like to easily understand the site purpose. 
 
@@ -110,7 +110,7 @@
 
   . The contact form in succuful submit return a confirmation message.
 
-  ## Heading
+  ### **Heading**
     
    . The heading situated on the top of each page has linear gradient background color, contains the city logo on the left and the navigation bar on the right.
 
