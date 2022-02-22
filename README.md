@@ -7,19 +7,17 @@
  
 1. [Site Overview](#site-overview)
 
-    i.  [User Goals](#user-goals)
+    i.  [User Stories](#user-stories)
 
-    ii. [Owner Goals](#owner-goals)
+    ii. [Site Goals](#owner-goals)
 
-2. [Website Structure](#Website-Structure)
+2. [Features](#Website-Structure)
 
     i.  [Header](#header)
 
-    ii. [Navigation](#navigation)
+    ii. [Home page](#home-page)
 
-    iii. [Home page](#home-page)
-
-    iv.  [Event section](#event-section)
+    iv. [Event section](#event-section)
 
     v.  [Footer](#footer)
 
@@ -63,31 +61,34 @@
 
 ## Site Overview
 
- This site provides interesting information about **Ghadames**, _The one of the oldest pre-Saharan cities, known as_ ''`the pearl of the desert`''. And about **The old town** of Ghadames which has been declared in **1986** as a <a href="https://whc.unesco.org/en/list/" target="_blank">UNESCO World Heritage site</a>. 
+ This site provides historic information about **Ghadames**, _The one of the oldest pre-Saharan cities_, known as ''`the pearl of the desert`''. And about **The old town** of Ghadames which has been declared in **1986** as a <a href="https://whc.unesco.org/en/list/" target="_blank">UNESCO World Heritage site</a>. 
 
 ![Ghadames logo](assets/images/site_layout.PNG)
 #### <a href="https://amal-bb.github.io/Ghadames/" target="_blank"> click here to view the site </a>
 
 
-## User Goals
+## User Stories
+
+. As a first time visitor user, I would like to easily understand the site purpose. 
+
+ . As a visitor user, I would like to get knowledge of the most valuable information about Ghadames and its heritage town. 
+
+ . As a visitor user, I would like to easily navigat through clear, organized, and attractive layout colors and images. 
+
+ . As a visitor user, I would like to view a city gallery contain a short video, and clear images.
+
+. As an intersting and frequent visitor user, I want to find all available events dates and locations.
+
+ . As an intersting visitor user, I want to see the location of the city in the google map.
+
+ . As an intersting visitor user, I would like to be able to contact the site owner to get help for arranging my visit to the city or for any other enquiries.
 
 
- . Knowledge of the most valuable information about Ghadames and its heritage town. 
-
- . Find any available events dates and locations.
-
- . Navigate easily through clear, organized, and attractive layout colors and images. 
-
- . Get helpful information about the city in case he is interesting to visit it.
-
- . Easy way to contact the site owner to get help to arrange his visit to the city or for any other inquiry.
-
-
-## Owner Goals
+## Site Goals
 
 . Introduce Ghadames, its civilization, and its heritage. 
 
- . Show the valuable information about Ghadames and the old town in an interesting way.
+ . Show the historic information about Ghadames and the old town in an interesting way.
 
  . Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
 
@@ -96,3 +97,38 @@
  . Help users to plan their visit through a contact page.
 
  . Display a gallery of the most attractive places in the city that users can enjoy while visiting.
+
+----
+
+ ## Features
+  
+  . The website has been designed to responsive on all devices sizes.
+
+  . Website header which contain the navigation bar stick in the top of the page while scrolling down.
+
+  . The navigation menu change to burger menu in small screen size devices.
+
+  . The contact form in succuful submit return a confirmation message.
+
+  ## Heading
+    
+   . The heading situated on the top of each page has linear gradient background color, contains the city logo on the left and the navigation bar on the right.
+
+   . The logo is very simple shows the city name using google font with a shadow, and it's direct user to home page in click on it.
+
+   . The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
+   
+  ## Home page
+
+   . The first section contains a main image slide of the old town of Ghadames (_the heritage site of the city_) .
+
+   . The second section contains a brief introduction about Ghadames followed by three intersting heading with icons, includes photos and short descriptions.
+
+   . The last section is Event section which display an upcoming events dates and locations with a small circle images.
+
+## Footer
+  
+  . It has the same linear gradient background color of the header, and It embedded Ghadames location in google map.
+
+  . It contains icons linked to social media pages open in separate tabs, and another link to contact page.
+   
