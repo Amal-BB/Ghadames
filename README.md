@@ -59,7 +59,7 @@
 
 ------
 
-## Site Overview
+## 1. Site Overview
 
  This site provides historic information about **Ghadames**, _The one of the oldest pre-Saharan cities_, known as ''`the pearl of the desert`''. And about **The old town** of Ghadames which has been declared in **1986** as a <a href="https://whc.unesco.org/en/list/" target="_blank">UNESCO World Heritage site</a>. 
 
@@ -73,7 +73,7 @@
 
  . As a visitor user, I would like to get knowledge of the most valuable information about Ghadames and its heritage town. 
 
- . As a visitor user, I would like to easily navigat through clear, organized, and attractive layout colors and images. 
+ . As a visitor user, I would like to easily navigate through clear, organized, and attractive layout colors and images. 
 
  . As a visitor user, I would like to view a city gallery contain a short video, and clear images.
 
@@ -100,41 +100,49 @@
 
 ----
 
- ## Features
+ ## 2. Features
   
-  . The website has been designed to responsive on all devices sizes.
+  . The website has been designed to be responsive on all devices sizes.
 
-  . Website header which contain the navigation bar stick in the top of the page while scrolling down.
+. Website header which contains the navigation bar stick to the top of the page while scrolling down.
 
-  . The navigation menu change to burger menu in small screen size devices.
+. The navigation menu changed to a burger menu in small screen size devices.
 
-  . The contact form in succuful submit return a confirmation message.
+. The contact form in successful submits returns a confirmation message.
 
   ### **Heading**
     
-   . The heading situated on the top of each page has linear gradient background color, contains the city logo on the left and the navigation bar on the right.
+  . The heading situated on the top of each page has a linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
 
-   . The logo is very simple shows the city name using google font with a shadow, and it's direct user to home page in click on it.
+  . The logo very simply shows the city name using google font with a shadow, and it directs the user to the home page in click on it.
 
-   . The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
+  . The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
+
    
   ### **Home page**
 
-   . The first section contains a main image slide of the old town of Ghadames (_the heritage site of the city_) .
+  . The first section contains the main image slide of the old town of Ghadames (the heritage site of the city).
 
-   . The second section contains a brief introduction about Ghadames followed by three intersting heading with icons, includes photos and short descriptions.
+  . The second section contains a brief introduction about Ghadames followed by three interesting headings with icons, including photos and short descriptions.
 
-   . The last section is Event section which display an upcoming events dates and locations with a small circle images.
+  . The last section is the Event section which displays upcoming events dates and locations with small circle images.
 
 ### **Footer**
   
-  . It has the same linear gradient background color of the header, and It embedded Ghadames location in google map.
+  . It has the same linear gradient background color of the header, and It embedded Ghadames' location in Google Maps.
 
-  . It contains icons direct to social media pages open in separate tabs, and another link to contact page.
+. It contains icons direct to social media pages open in separate tabs, and another link to the contact page.
 
 ### **About**
 
-  .  
+  . About page contains more detailed information about Ghadames, divided into two headings, history and the old town, attached with images.
 
+### **Gallery**
 
-   
+  . A short video from the UNESCO channel has been embedded in the gallery page and many other photos with titles.
+
+----
+
+## 3. Design
+
+### **Gallery**
