@@ -139,10 +139,24 @@
 
 ### **Gallery**
 
-  . A short video from the UNESCO channel has been embedded in the gallery page and many other photos with titles.
+  . A short video from the You Tube<a href="https://youtu.be/LCVldQzjyRY" target="_blank"> channel of UNESCO</a> has been embedded in the gallery page and many other photos with titles.
 
 ----
 
 ## 3. Design
 
-### **Gallery**
+### **Colours**
+
+![colours schema](assets/images/colours-schema.PNG)
+
+. Colors schema of gray and red has been used.
+
+. The red pattren color inspired from the traditonal colors in Ghadames culture.
+
+### **Typography**
+
+Two fonts are used in the website.
+
+. <a href="https://fonts.google.com/specimen/Lato#about" target="_blank">**Lato** </a> is a sans serif typeface family,  imported from Google Fonts. It has been used for the body content. 
+
+. **Serif** has been used for logo.
