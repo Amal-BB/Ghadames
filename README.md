@@ -77,14 +77,14 @@
 
  . As a visitor user, I would like to view a city gallery contain a short video, and clear images.
 
-. As an intersting and frequent visitor user, I want to find all available events dates and locations.
+. As an intersting and frequent visitor user, I want to find all upcoming events dates and locations.
 
  . As an intersting visitor user, I want to see the location of the city in the google map.
 
  . As an intersting visitor user, I would like to be able to contact the site owner to get help for arranging my visit to the city or for any other enquiries.
 
 
-## Site Goals
+### **Site Goals**
 
 . Introduce Ghadames, its civilization, and its heritage. 
 
@@ -92,7 +92,7 @@
 
  . Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
 
- . keep users up to date with any available events for Ghadames.
+ . keep users up to date with any upcoming events for Ghadames.
 
  . Help users to plan their visit through a contact page.
 
@@ -118,7 +118,7 @@
 
    . The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
    
-  ## Home page
+  ### **Home page**
 
    . The first section contains a main image slide of the old town of Ghadames (_the heritage site of the city_) .
 
@@ -126,9 +126,15 @@
 
    . The last section is Event section which display an upcoming events dates and locations with a small circle images.
 
-## Footer
+### **Footer**
   
   . It has the same linear gradient background color of the header, and It embedded Ghadames location in google map.
 
-  . It contains icons linked to social media pages open in separate tabs, and another link to contact page.
+  . It contains icons direct to social media pages open in separate tabs, and another link to contact page.
+
+### **About**
+
+  .  
+
+
    
