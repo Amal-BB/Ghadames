@@ -145,7 +145,7 @@ nav {
 }
 
 .cover-txt p {
-    padding: 15px 10px;
+    padding: 15px 15px;
     letter-spacing: 2px;
     color: var(--white);
     font-style: italic;

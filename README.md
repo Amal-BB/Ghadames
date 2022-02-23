@@ -114,7 +114,7 @@
     
   . The heading situated on the top of each page has a linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
 
-  . The logo very simply shows the city name using google font with a shadow, and it directs the user to the home page in click on it.
+  . The logo very simply shows the city name using google font with a shadow, and it directs user to the home page in click on it.
 
   . The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
 
@@ -151,7 +151,7 @@
 
 . Colors schema of gray and red has been used.
 
-. The red pattren color inspired from the traditonal colors in Ghadames culture.
+. The red pattren color inspired from the traditonal colors of Ghadames culture.
 
 ### **Typography**
 
