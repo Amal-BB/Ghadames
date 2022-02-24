@@ -108,12 +108,17 @@
 
 . The navigation menu changed to a burger menu in small screen size devices.
 
+![Mobile menu](assets/images/burger-menu.PNG)
+
 . The contact form in successful submits returns a confirmation message.
 
-  ### **Heading**
+  ### **Header**
     
-  . The heading situated on the top of each page has a linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
 
+  ![Header](assets/images/header.PNG)
+
+  . The header situated on the top of each page has a linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
+  
   . The logo very simply shows the city name using google font with a shadow, and it directs user to the home page in click on it.
 
   . The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
@@ -121,7 +126,7 @@
    
   ### **Home page**
 
-  . The first section contains the main image slide of the old town of Ghadames (the heritage site of the city).
+  . The first section contains the main image slide of the old town of Ghadames (_the heritage site of the city_).
 
   . The second section contains a brief introduction about Ghadames followed by three interesting headings with icons, including photos and short descriptions.
 
@@ -131,7 +136,7 @@
   
   . It has the same linear gradient background color of the header, and It embedded Ghadames' location in Google Maps.
 
-. It contains icons direct to social media pages open in separate tabs, and another link to the contact page.
+. It contains icons direct to social media pages open in separate tabs, and another link direct to contact page.
 
 ### **About**
 
@@ -151,9 +156,9 @@
 
 . Colors schema of gray and red has been used.
 
-. The red pattren color inspired from the traditonal colors of Ghadames culture.
+. The red color pattren inspired from the traditonal colors of Ghadames culture.
 
-. Colours were checked for contrast on <a href="https://contrast-grid.eightshapes.com/" target="_blank">Contrast Grid.</a>
+. This colours palette was generated at Coolors, and checked for contrast on <a href="https://contrast-grid.eightshapes.com/" target="_blank">Contrast Grid.</a>
 
 ### **Typography**
 
@@ -166,6 +171,8 @@ Two fonts are used in the website.
 ----
 
  ## 4. Used technologies
+
+ . Website has been hosted through <a href="https://github.com/" target="_blank">GitHub</a> repository. 
    
    ### **Languages**
 
@@ -173,7 +180,7 @@ Two fonts are used in the website.
 
    ### **Content**
    
-   . Content information has been taken from trusted resourses like <a href="https://whc.unesco.org/en/list/362" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a> and <a href="https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye" target="_blank">ResershGate</a> website.
+   . Content information has been taken from some resourses like <a href="https://whc.unesco.org/en/list/362" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a> and <a href="https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye" target="_blank">ResershGate</a> website.
 
    . Burger menu for mobile devices follows a tutorial from <a href="https://www.youtube.com/watch?v=kKRpeFk613I" target="_blank">
    Tyler Potts</a>.
@@ -185,24 +192,34 @@ Two fonts are used in the website.
 
    ### **Media**
 
-   . Images are collected from many resourses like: UNESCO, Wikipidia , https://libyaadventures.com/portfolio/ghadames/ 
+   . Images are collected from many resourses like: <a href="https://whc.unesco.org/en/list/362/gallery/" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a> , <a href="https://libyaadventures.com/portfolio/ghadames/" target="_blank">Libya Adventures</a>, <a href="https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert" target="_blank"> Aljazeera</a>, 
+   <a href="https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames" target="_blank">
+  Islamic Architectural Heritage</a>, <a href="https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/" target="_blank"> Middle East Revised</a>, 
+  <a href="https://commons.wikimedia.org/" target="_blank"> Wikimedia</a>, and some other free copyright images can be found in Google.
+
+   . Gallery video is embedded from <a href="https://youtu.be/LCVldQzjyRY" target="_blank"> UNESCO You Tube channel</a>.
+
+   . Images compression was done via <a href="https://compressimage.toolur.com/" target="_blank">Toolur</a>.
+
+   . Icons used in website are imported from <a href="https://kit.fontawesome.com" target="_blank"> Font Awesome</a>.
+
+----
+
+ ## 5. Testing
+
+ The project has been tested by freinds help in many different devices like: Laptop, Iphon8, IphonSE, Iphon12, Nokia, Huawei, and Tablet. And no issues has been reported.
+
+ ### **Test Cases**
+
+ . When user click on burger menu then the burger lines will rotate and navigation menu will appear, once he click again navigation menu will disappear and buger lines rotate to thier first position.
+
+ . If user press submit button on contact page without filling any of required field (Name & Email) then warning message will appears in this fields.
+ 
+ . If user fills the Name by one letter, or in case of typing incorrect email another warning message will appears in this fields.
+ 
+ . Once user fills all required field and then press submit button, he will get confirmation message .
+
+
    
-   https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert
-
-   https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames
-
-   https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/
-
-   https://commons.wikimedia.org/ 
-
-   and some other free copyright images can be found in google.
-
-   . Gallery vedio is embedded from <a href="https://youtu.be/LCVldQzjyRY" target="_blank"> UNESCO You Tube channel</a>.
-
-   . Images compression was done via https://compressimage.toolur.com/
-
-   . The icons used in website are imported from Font Awesome.
-
-   . Coulors palette included in this readme was generated at Coolors and checked for contrast on Contrast Grid.
 
    
