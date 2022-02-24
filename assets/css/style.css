@@ -20,7 +20,7 @@ html {
     --gray: #413F3F;
     --white: #ffffff;
     --linear_color: linear-gradient(to bottom right, #2C0202, #F71D1D, #F76969);
-    --nav_color: #2c0202b4;
+    --nav_color: #2c0202b7;
     --nav_hover_color: #8d3030;
 }
 
@@ -48,8 +48,7 @@ header {
     background-image: var(--linear_color);
     border-bottom: 1px solid white;
     color: var(--white);
-    position: -webkit-sticky;
-    /* Safari */
+    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
 }
@@ -447,7 +446,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: var(--nav_color);
+    background-color: var(--gray);
     color: var(--white);
     padding: 12px 20px;
     border: none;
