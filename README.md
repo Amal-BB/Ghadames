@@ -139,7 +139,7 @@
 
 ### **Gallery**
 
-  . A short video from the You Tube<a href="https://youtu.be/LCVldQzjyRY" target="_blank"> channel of UNESCO</a> has been embedded in the gallery page and many other photos with titles.
+  . A short video from the You Tube<a href="https://youtu.be/LCVldQzjyRY" target="_blank"> channel of UNESCO</a> has been embedded in the gallery page and some other photos with titles of description.
 
 ----
 
@@ -147,11 +147,13 @@
 
 ### **Colours**
 
-![colours schema](assets/images/colours-schema.PNG)
+![colours schema](assets/images/colours_schema.PNG)
 
 . Colors schema of gray and red has been used.
 
 . The red pattren color inspired from the traditonal colors of Ghadames culture.
+
+. Colours were checked for contrast on <a href="https://contrast-grid.eightshapes.com/" target="_blank">Contrast Grid.</a>
 
 ### **Typography**
 
@@ -160,3 +162,47 @@ Two fonts are used in the website.
 . <a href="https://fonts.google.com/specimen/Lato#about" target="_blank">**Lato** </a> is a sans serif typeface family,  imported from Google Fonts. It has been used for the body content. 
 
 . **Serif** has been used for logo.
+
+----
+
+ ## 4. Used technologies
+   
+   ### **Languages**
+
+   Html and CSS languages .
+
+   ### **Content**
+   
+   . Content information has been taken from trusted resourses like <a href="https://whc.unesco.org/en/list/362" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a> and <a href="https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye" target="_blank">ResershGate</a> website.
+
+   . Burger menu for mobile devices follows a tutorial from <a href="https://www.youtube.com/watch?v=kKRpeFk613I" target="_blank">
+   Tyler Potts</a>.
+
+   . Image gallery style in gallery page follows a tutorial from <a href="https://https://www.w3schools.com/css/css_image_gallery.asp" target="_blank">W3 Schools.</a>
+
+   . Linear gradients backgroung for header and footer follows CSS Gradients in <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank">W3 Schools.</a>
+  
+
+   ### **Media**
+
+   . Images are collected from many resourses like: UNESCO, Wikipidia , https://libyaadventures.com/portfolio/ghadames/ 
+   
+   https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert
+
+   https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames
+
+   https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/
+
+   https://commons.wikimedia.org/ 
+
+   and some other free copyright images can be found in google.
+
+   . Gallery vedio is embedded from <a href="https://youtu.be/LCVldQzjyRY" target="_blank"> UNESCO You Tube channel</a>.
+
+   . Images compression was done via https://compressimage.toolur.com/
+
+   . The icons used in website are imported from Font Awesome.
+
+   . Coulors palette included in this readme was generated at Coolors and checked for contrast on Contrast Grid.
+
+   
