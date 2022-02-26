@@ -46,6 +46,10 @@
 1. [Content and Media](#content-and-media)
 
 1. [Deployment](#deployment)
+  
+   + [Via Gitpod](#via-gitpod)
+
+   + [Via GitHub Pages](#via-github-pages)
 
 1. [Credits](#credits)
 
@@ -162,7 +166,7 @@ Two fonts are used in the website.
 
 ----
 
- ## 4. Used echnologies
+ ## 4. Used Technologies
 
  * Only `Html` and `CSS` languages are used in this project.
 
@@ -273,7 +277,7 @@ All reported bugs from testing has been fixed.
   1. You will find green Gitpod button has been appeared.
 
   1. press **Gitpod** button, start up your workspace.
-  
+
  ### **Via GitHup Pages**
   
   The project was deployed via Githup pages by using following steps:
@@ -286,5 +290,9 @@ All reported bugs from testing has been fixed.
 
 
 ## 7. Credits
+
+  * I'm grateful to my mentor (Mr.Spence / Mr.Rohit), our facilitator Kasia, and the student care team for their support.
+
+  * Code institute slack is a good community provides a lot of helpful information.
 
    
