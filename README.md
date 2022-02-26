@@ -63,7 +63,7 @@
 
  This site provides historic information about **Ghadames**, _The one of the oldest pre-Saharan cities_, known as ''`the pearl of the desert`''. And about **The old town** of Ghadames which has been declared in **1986** as a <a href="https://whc.unesco.org/en/list/" target="_blank">UNESCO World Heritage site</a>. 
 
-![Ghadames logo](assets/images/site_layout.PNG)
+![Ghadames logo](assets/images/site-layout.PNG)
 #### <a href="https://amal-bb.github.io/Ghadames/" target="_blank"> click here to view the site </a>
 
 
@@ -158,7 +158,7 @@
 
 . The red color pattren inspired from the traditonal colors of Ghadames culture.
 
-. This colours palette was generated at Coolors, and checked for contrast on <a href="https://contrast-grid.eightshapes.com/" target="_blank">Contrast Grid.</a>
+. This colours palette was generated at <a href="https://coolors.co/" target="_blank">Coolors</a>, and checked for contrast on <a href="https://contrast-grid.eightshapes.com/" target="_blank">Contrast Grid.</a>
 
 ### **Typography**
 
@@ -170,17 +170,22 @@ Two fonts are used in the website.
 
 ----
 
- ## 4. Used technologies
+ ## 4. Used echnologies
+
+ . Only `Html` and `CSS` languages are used in this project.
 
  . Website has been hosted through <a href="https://github.com/" target="_blank">GitHub</a> repository. 
-   
-   ### **Languages**
 
-   Html and CSS languages .
-
-   ### **Content**
+ . The multi device mockup was generated via <a href="http://techsini.com/multi-mockup/index.php" target="_blank">Techsini</a> website. 
    
-   . Content information has been taken from some resourses like <a href="https://whc.unesco.org/en/list/362" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a> and <a href="https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye" target="_blank">ResershGate</a> website.
+ . Images compression was done via <a href="https://compressimage.toolur.com/" target="_blank">Toolur</a>.
+
+   ## 5. Content and Media 
+   
+   . Content information and images are collected from many resourses like: <a href="https://whc.unesco.org/en/list/362/gallery/" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a>, <a href="https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye" target="_blank">ResershGate</a>, <a href="https://libyaadventures.com/portfolio/ghadames/" target="_blank">Libya Adventures</a>, <a href="https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert" target="_blank"> Aljazeera</a>, 
+   <a href="https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames" target="_blank">
+  Islamic Architectural Heritage</a>, <a href="https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/" target="_blank"> Middle East Revised</a>, 
+  <a href="https://commons.wikimedia.org/" target="_blank"> Wikimedia</a>, and some other free copyright images can be found in Google. 
 
    . Burger menu for mobile devices follows a tutorial from <a href="https://www.youtube.com/watch?v=kKRpeFk613I" target="_blank">
    Tyler Potts</a>.
@@ -190,36 +195,60 @@ Two fonts are used in the website.
    . Linear gradients backgroung for header and footer follows CSS Gradients in <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank">W3 Schools.</a>
   
 
-   ### **Media**
-
-   . Images are collected from many resourses like: <a href="https://whc.unesco.org/en/list/362/gallery/" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a> , <a href="https://libyaadventures.com/portfolio/ghadames/" target="_blank">Libya Adventures</a>, <a href="https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert" target="_blank"> Aljazeera</a>, 
-   <a href="https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames" target="_blank">
-  Islamic Architectural Heritage</a>, <a href="https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/" target="_blank"> Middle East Revised</a>, 
-  <a href="https://commons.wikimedia.org/" target="_blank"> Wikimedia</a>, and some other free copyright images can be found in Google.
-
    . Gallery video is embedded from <a href="https://youtu.be/LCVldQzjyRY" target="_blank"> UNESCO You Tube channel</a>.
 
-   . Images compression was done via <a href="https://compressimage.toolur.com/" target="_blank">Toolur</a>.
+  
 
-   . Icons used in website are imported from <a href="https://kit.fontawesome.com" target="_blank"> Font Awesome</a>.
+   . Icons used in this project are imported from <a href="https://kit.fontawesome.com" target="_blank"> Font Awesome</a>.
 
 ----
 
- ## 5. Testing
+ ## 5. Testing and Buges
 
- The project has been tested by freinds help in many different devices like: Laptop, Iphon8, IphonSE, Iphon12, Nokia, Huawei, and Tablet. And no issues has been reported.
+ . The responsivness view test for the site has been tested in a range of screen sizes via **Chrome DevTools**.
+
+ . The website has been tested in desktop browsers **Chrome** and **Firefox**, also has been shared with other users to get testing in many different devices like: _Iphon8, IphonSE, Iphon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
+
+ . The final result after solving bugs was the site has responsive view, and works fine with no issues reported.
+
 
  ### **Test Cases**
 
- . When user click on burger menu then the burger lines will rotate and navigation menu will appear, once he click again navigation menu will disappear and buger lines rotate to thier first position.
+ . When user of mobile device click on burger menu then the burger lines will rotate and navigation menu will appear, once he click again navigation menu will disappear and buger lines return to thier first position.
 
- . If user press submit button on contact page without filling any of required field (Name & Email) then warning message will appears in this fields.
+ . If user press submit button on contact page without filling any of required field (Name or Email), then warning message will appears in this fields.
+ ![Warning message](assets/images/fill-message.PNG)
  
  . If user fills the Name by one letter, or in case of typing incorrect email another warning message will appears in this fields.
+ ![Warning message](assets/images/fill-by-lenght-msg.PNG)
+ ![Warning message](assets/images/incorrect-email-msg.PNG)
  
- . Once user fills all required field and then press submit button, he will get confirmation message .
+ . Once user fills all required field and then press submit button, he will get confirmation message.
+ ![Warning message](assets/images/confirmation-msg.PNG)
 
 
-   
+### **Code Validation**
+
+ . No errors were returned for `Html Code` when passing site URI through the offical <a href="https://validator.w3.org/">W3C Validator</a>.
+
+ . No errors were returned for `CSS Code` when passing site URI through the offical <a href="https://jigsaw.w3.org/css-validator/">Jigsaw Validator</a>. 
+
+ . Project **Accessibility** has been checked through <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> in Chrome DevTools, the result is shown below for both mobile and desktop. 
+![Accessibility](assets/images/accessibility.PNG)
+
+## Bugs
+
+All reported bugs from testing has been solved.
+
+### **Solved Bugs**
+
+. By tesing the website in small screen mobile phone, the burger menu wasn't appear clear as it was close to the logo side, This issue was addressed by reducing logo font size and padding for screens of maximum width 490 pixels.
+![Mobile menu bug](assets/images/menu-bug.PNG)
+
+. Another issue was reported by the same small screen device, on showing event text in the main page, just a littel of the text were appeared and others were covered by the image. This issue was solved by adjusting the text Div height.
+![Event text bug](assets/images/event-bug.PNG)
+
+. A moniter user reported that there was an issue of the place of Email label in contact form as shown in the image. By changing the display property of the label the issue was solved.
+![Form label bug](assets/images/form-bug.PNG)
 
    
