@@ -270,22 +270,30 @@ All reported bugs from testing has been fixed.
   
   The project code has been run in Gitpod using following steps:
 
-  1. Install the Gitpod browser extension to make this a one-click operation.
+  1. Install the Gitpod browser extension.
   
-  1. Log into your Githup account, then navigate to your project Repository.
+  1. Log into your Github account, then navigate to your project [Repository](https://docs.github.com/en/repositories).
 
-  1. You will find green Gitpod button has been appeared.
+  1. You will find a green Gitpod button has appeared.
 
-  1. press **Gitpod** button, start up your workspace.
-
- ### **Via GitHup Pages**
+  1. Press **Gitpod** button, you will direct to GitPod page.
   
-  The project was deployed via Githup pages by using following steps:
+  1. At the first time you need to authorize, so press **Authorize Gigpod**, then you will be directed to Create Account page.
+  
+  1. Press accept terms to start up your workspace in Gitpod.
 
-  1. Log into your Githup account.
-  1. Navigate to the [Repository](https://docs.github.com/en/repositories), click the **Setting** button at the top menu.
+ ### **Via GitHub Pages**
+  
+  The project was deployed via Github pages by using following steps:
+
+  1. Log into your Github account.
+
+  1. Navigate to the Repository, click the **Setting** button at the top menu.
+  
   1. Click the **Pages** option, located on the left-side menu.
+  
   1. Under **Source**, click the dropdown list titled "None", and select branch named "main". 
+  
   1. Click **Save**. The site now deployed and the published site link will be created.
 
 
