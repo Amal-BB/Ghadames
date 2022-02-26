@@ -217,13 +217,16 @@ Two fonts are used in the website.
  . When user of mobile device click on burger menu then the burger lines will rotate and navigation menu will appear, once he click again navigation menu will disappear and buger lines return to thier first position.
 
  . If user press submit button on contact page without filling any of required field (Name or Email), then warning message will appears in this fields.
+
  ![Warning message](assets/images/fill-message.PNG)
  
  . If user fills the Name by one letter, or in case of typing incorrect email another warning message will appears in this fields.
+
  ![Warning message](assets/images/fill-by-lenght-msg.PNG)
  ![Warning message](assets/images/incorrect-email-msg.PNG)
  
  . Once user fills all required field and then press submit button, he will get confirmation message.
+
  ![Warning message](assets/images/confirmation-msg.PNG)
 
 
@@ -233,7 +236,8 @@ Two fonts are used in the website.
 
  . No errors were returned for `CSS Code` when passing site URI through the offical <a href="https://jigsaw.w3.org/css-validator/">Jigsaw Validator</a>. 
 
- . Project **Accessibility** has been checked through <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> in Chrome DevTools, the result is shown below for both mobile and desktop. 
+ . Project **Accessibility** has been checked through <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> in Chrome DevTools, the result is shown below for both mobile and desktop.
+  
 ![Accessibility](assets/images/accessibility.PNG)
 
 ## Bugs
