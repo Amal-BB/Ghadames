@@ -180,6 +180,8 @@ Two fonts are used in the website.
    
  . Images compression was done via <a href="https://compressimage.toolur.com/" target="_blank">Toolur</a>.
 
+----
+
    ## 5. Content and Media 
    
    . Content information and images are collected from many resourses like: <a href="https://whc.unesco.org/en/list/362/gallery/" target="_blank">UNESCO</a>, <a href="https://https://en.wikipedia.org/wiki/Ghadames" target="_blank">Wikipidia</a>, <a href="https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye" target="_blank">ResershGate</a>, <a href="https://libyaadventures.com/portfolio/ghadames/" target="_blank">Libya Adventures</a>, <a href="https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert" target="_blank"> Aljazeera</a>, 
@@ -237,7 +239,7 @@ Two fonts are used in the website.
  . No errors were returned for `CSS Code` when passing site URI through the offical <a href="https://jigsaw.w3.org/css-validator/">Jigsaw Validator</a>. 
 
  . Project **Accessibility** has been checked through <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a> in Chrome DevTools, the result is shown below for both mobile and desktop.
-  
+
 ![Accessibility](assets/images/accessibility.PNG)
 
 ## Bugs
@@ -246,10 +248,10 @@ All reported bugs from testing has been solved.
 
 ### **Solved Bugs**
 
-. By tesing the website in small screen mobile phone, the burger menu wasn't appear clear as it was close to the logo side, This issue was addressed by reducing logo font size and padding for screens of maximum width 490 pixels.
+. By tesing the website in small screen devices, the burger menu wasn't appear clear as it was close to the logo side, This issue was addressed by reducing logo font size and padding for screens of maximum width 490 pixels.
 ![Mobile menu bug](assets/images/menu-bug.PNG)
 
-. Another issue was reported by the same small screen device, on showing event text in the main page, just a littel of the text were appeared and others were covered by the image. This issue was solved by adjusting the text Div height.
+. Another issue was reported in the small screen devices, that just a littel of the event description text was appeared and other text was covered by the image. This issue was solved by adjusting the text Div height.
 ![Event text bug](assets/images/event-bug.PNG)
 
 . A moniter user reported that there was an issue of the place of Email label in contact form as shown in the image. By changing the display property of the label the issue was solved.
