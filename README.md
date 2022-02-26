@@ -9,15 +9,13 @@
 
     +  [User Stories](#user-stories)
 
-    + [Site Goals](#owner-goals)
+    + [Site Goals](#site-goals)
 
-1. [Features](#Website-Structure)
+1. [Features](#features)
 
     +  [Header](#header)
 
     + [Home page](#home-page)
-
-    + [Event section](#event-section)
 
     +  [Footer](#footer)
 
@@ -33,25 +31,21 @@
 
    + [Typography](#typography)
 
-   + [Icons and Images](#icons-and-images)
-
 1. [Testing and Validator](#testing-and-validator)
    
-   + [Manual testing](#manual-testing)
+   + [Code Validator](#code-validator)
 
-   + [W3C Validator](#w3c-validator)
-
-   + [Lighthouse DevTools](#lighthouse-devtools)
+   + [Test Cases](#test-cases)
 
 1. [Bugs and fixes](#bugs-and-fixes)
    
    + [Fixed Bugs](#fixed-bugs)
 
-1. [Used technologies](#used-technologies)
-
-1. [Deployment](#deployment)  
-
+1. [Used Technologies](#used-technologies)
+  
 1. [Content and Media](#content-and-media)
+
+1. [Deployment](#deployment)
 
 1. [Credits](#credits)
 
@@ -59,7 +53,7 @@
 
 ## 1. Site Overview
 
- This site provides historic information about **Ghadames**, _The one of the oldest pre-Saharan cities_, known as ''`the pearl of the desert`''. And about **The old town** of Ghadames which has been declared in **1986** as a [UNESCO World Heritage site](https://whc.unesco.org/en/list/)</a>. 
+ This site provides historic information about **Ghadames**, _The one of the oldest pre-Saharan cities_, known as ''**the pearl of the desert**''. And about **The old town** of Ghadames which has been declared in *1986* as a [UNESCO World Heritage site](https://whc.unesco.org/en/list/)</a>. 
 
 ![Ghadames logo](assets/images/site-layout.PNG)
 #### [click here to view the site](https://amal-bb.github.io/Ghadames/)
@@ -180,27 +174,6 @@ Two fonts are used in the website.
 
 ----
 
-   ## 5. Content and Media 
-   
-   * Content information and images are collected from many resourses like: [UNESCO](https://whc.unesco.org/en/list/362/gallery/), [Wikipidia](https://https://en.wikipedia.org/wiki/Ghadames), [ResershGate](https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye), [Libya Adventures](https://libyaadventures.com/portfolio/ghadames/), [Aljazeera](https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert),
-  [Islamic Architectural Heritage](https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames), [Middle East Revised](https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/), [Wikimedia](https://commons.wikimedia.org/), and some other free copyright images can be found in Google. 
-
-   * Burger menu for mobile devices follows a tutorial from
-   [Tyler Potts](https://www.youtube.com/watch?v=kKRpeFk613I).
-
-   * Image gallery style in gallery page follows a tutorial from [W3 Schools](https://https://www.w3schools.com/css/css_image_gallery.asp).
-
-   * Linear gradients backgroung for header and footer follows CSS Gradients in [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp).
-  
-
-   * Gallery video is embedded from [UNESCO You Tube channel](https://youtu.be/LCVldQzjyRY).
-
-   * [Google Font](https://developers.google.com/fonts) is impotred to use for content font.
-
-   * Icons used in this project are imported from [Font Awesome](https://kit.fontawesome.com).
-
-----
-
  ## 5. Testing and Validtor
 
  * The responsivness view test for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
@@ -208,6 +181,16 @@ Two fonts are used in the website.
  * The website has been tested in desktop browsers **Chrome** and **Firefox**, also has been shared with other users to get testing in many different devices like: _Iphon8, IphonSE, Iphon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
 
  * The final testing result after solving bugs was the site has responsive view, and works fine with no issues reported.
+
+### **Code Validation**
+
+ * No errors were returned for `Html Code` when passing site URI through the offical [W3C Validator](https://validator.w3.org/).
+
+ * No errors were returned for `CSS Code` when passing site URI through the offical [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
+
+ * Project **Accessibility** has been checked through [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools, the result is shown below for both mobile and desktop.
+
+   ![Accessibility](assets/images/accessibility.PNG)
 
 
  ### **Test Cases**
@@ -228,16 +211,6 @@ Two fonts are used in the website.
     ![Confirmation message](assets/images/confirmation-msg.PNG)
 
 
-### **Code Validation**
-
- * No errors were returned for `Html Code` when passing site URI through the offical [W3C Validator](https://validator.w3.org/).
-
- * No errors were returned for `CSS Code` when passing site URI through the offical [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
-
- * Project **Accessibility** has been checked through [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools, the result is shown below for both mobile and desktop.
-
-   ![Accessibility](assets/images/accessibility.PNG)
-
 ## 6. Bugs and Fixing
 
 All reported bugs from testing has been fixed.
@@ -256,7 +229,8 @@ All reported bugs from testing has been fixed.
 
   > ![Form label bug](assets/images/form-bug.PNG)
 
-* When I tested the website in mobile devices and tablet, I noticed that most of the content texts sizes change during screen orientation change. So, by Set the `text size adjust` for all browsers to 100%, the issue was fixed.
+* When I tested the website on a mobile device and tablet, I noticed changes in the size of most content texts during screen orientation change, which cause a messy look for content. So, by Setting the `text size adjust` for all browsers to 100%, the issue was fixed.
+
    ```css
    html {
     -webkit-text-size-adjust: 100%;
@@ -266,16 +240,51 @@ All reported bugs from testing has been fixed.
     ```
 ------
 
+   ## 5. Content and Media 
+   
+   * Content information and images are collected from many resourses like: [UNESCO](https://whc.unesco.org/en/list/362/gallery/), [Wikipidia](https://https://en.wikipedia.org/wiki/Ghadames), [ResershGate](https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye), [Libya Adventures](https://libyaadventures.com/portfolio/ghadames/), [Aljazeera](https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert),
+  [Islamic Architectural Heritage](https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames), [Middle East Revised](https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/), [Wikimedia](https://commons.wikimedia.org/), and some other free copyright images can be found in Google. 
+
+   * Burger menu for mobile devices follows a tutorial from
+   [Tyler Potts](https://www.youtube.com/watch?v=kKRpeFk613I).
+
+   * Image gallery style in gallery page follows a tutorial from [W3 Schools](https://https://www.w3schools.com/css/css_image_gallery.asp).
+
+   * Linear gradients backgroung for header and footer follows CSS Gradients in [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp).
+  
+
+   * Gallery video is embedded from [UNESCO You Tube channel](https://youtu.be/LCVldQzjyRY).
+
+   * [Google Font](https://developers.google.com/fonts) is impotred to use for content font.
+
+   * Icons used in this project are imported from [Font Awesome](https://kit.fontawesome.com).
+
+----
 ## 7. Deployment
- 
- ### **Via GitHup**
+  
+  ### **Via Gitpod**
+  
+  The project code has been run in Gitpod using following steps:
+
+  1. Install the Gitpod browser extension to make this a one-click operation.
+  
+  1. Log into your Githup account, then navigate to your project Repository.
+
+  1. You will find green Gitpod button has been appeared.
+
+  1. press **Gitpod** button, start up your workspace.
+  
+ ### **Via GitHup Pages**
   
   The project was deployed via Githup pages by using following steps:
 
   1. Log into your Githup account.
-  1. Navigate to the [Repository](https://docs.github.com/en/repositories), click the `Setting` button at the top menu.
-  1. Click the `Pages` option, located on the left-side menu.
-  1. Under `Source`, click the dropdown list titled "**None**", and select branch named "**main**". 
-  1. Click `Save`. The site now deployed and the published site link will be created.
+  1. Navigate to the [Repository](https://docs.github.com/en/repositories), click the **Setting** button at the top menu.
+  1. Click the **Pages** option, located on the left-side menu.
+  1. Under **Source**, click the dropdown list titled "None", and select branch named "main". 
+  1. Click **Save**. The site now deployed and the published site link will be created.
+
+
+## 7. Credits
 
    
