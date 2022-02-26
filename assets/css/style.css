@@ -193,7 +193,7 @@ div.photo {
 
 div.photo {
     text-align: center;
-    margin: 15px auto 20px;
+    margin: 20px auto;
 }
 
 div.photo img {
@@ -239,7 +239,6 @@ div.gallery-image {
 div.gallery-image img {
     width: 100%;
     height: auto;
-    min-width: 250px;
     height: 250px;
 }
 
