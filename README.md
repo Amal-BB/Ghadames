@@ -1,4 +1,4 @@
-![Ghadames logo](assets/images/ghadames_logo.PNG)
+![Ghadames logo](readme-images/ghadames_logo.PNG)
 
 # Ghadames - Project Portfolio 1
 
@@ -63,126 +63,148 @@
 #### [click here to view the site](https://amal-bb.github.io/Ghadames/)
 
 
-### **User Stories**
++ ### **User Stories**
  
- As a *visiting user*, I would like to:
+  As a *visiting user*, I would like to:
  
- * Get knowledge of the most valuable information about Ghadames and its heritage town.  
+     * Get knowledge of the most valuable information about Ghadames and its heritage town.  
 
- * View a city gallery contain a short video, and clear images.
+     * View a city gallery contain a short video, and clear images.
 
- * Find all upcoming events dates and locations.
+     * Find all upcoming events dates and locations.
 
- * See the location of the city in the google map.
+     * See the location of the city in the google map.
 
- * Contact the site owner to get help for arranging my visit to the city or for any other enquiries.
+     * Contact the site owner to get help for arranging my visit to the city or for any other enquiries.
 
 
-### **Site Goals**
++ ### **Site Goals**
 
- * Introduce Ghadames, its civilization, and its heritage. 
+      * Introduce Ghadames, its civilization, and its heritage. 
 
- * Show the historic information about Ghadames and the old town in an interesting way.
+      * Show the historic information about Ghadames and the old town in an interesting way.
 
- * Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
+      * Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
 
- * keep users up to date with any upcoming events for Ghadames.
+      * keep users up to date with any upcoming events for Ghadames.
 
- * Help users to plan their visit through a contact page.
+      * Help users to plan their visit through a contact page.
 
- * Display a gallery of the most attractive places in the city that users can enjoy while visiting.
+      * Display a gallery of the most attractive places in the city that users can enjoy while visiting.
+
+----
+## 2. Design
+
++ ### **Colours**
+
+    ![colours schema](readme-images/colours_schema.PNG)
+
+    * Colours schema of gray and red has been used.
+
++ ### **Typography**
+
+   * [**Lato**](https://fonts.google.com/specimen/Lato#about) font is a sans serif typeface family, used throughout the whole website with Sans Serif as the fallback font in case of the font isn't being imported into the site correctly.
+
+   * Serif has been used for the logo. 
+
+   * Both fonts are clear, attractive and appropriate.
+
++ ### **Imagery**
+
+   * The red color pattren inspired from the traditonal colors of Ghadames culture.
+   
+   * The subtitle of the city name logo used to get user inquisitiveness to find out more about the city.
 
 ----
 
-## 2. Features
+## 3. Features
   
 * The website has been designed to be responsive on all device sizes.
 
-* The contact form in successful submits returns a confirmation message.
++ ### **Header**
 
-### **Header**
-    
-  ![Header](readme-images/header.PNG)
+    * The header situated on the top of each page has a attractive linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
 
-  * The header situated on the top of each page has a attractive linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
-
-  * It stick to the top of the page while scrolling down to make navigation more easy for users.
+    * It stick to the top of the page while scrolling down to make navigation more easy for users.
   
-  * The logo very simply shows the city name using clear font styled with a shadow, and it linkes to home page.
+    * The logo is very simply shows the city name using clear font styled with a shadow, and it linkes to home page.
 
+      ![Header](readme-images/header.PNG)
 
-### **Navigation Bar**
++ ### **Navigation Bar**
 
-* The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery and Contact.
+    * The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery and Contact.
 
-* The navigation bar will allow the user to easily navigate from page to page across all devices, as the navigation menu is changed to a burger menu in small screen size devices.
+    * The navigation bar will allow the user to easily navigate from page to page across all devices, as the navigation menu is changed to a burger menu in small screen size devices.
 
-   ![Mobile menu](readme-images/burger-menu.PNG)
+      ![Mobile menu](readme-images/burger-menu.PNG)
    
-  ### **Home page**
++ ### **Home page**
 
   The Home page has a valuable content that should encourage a visiting user to navigate to other pages to know more about Ghadames. 
 
-  *  _**Image section**_: has an attractive view photo for the old town of Ghadames (_the heritage site of the city_), with text overlay of short decription to get user attantion, and get his intersting to know more about the place.
+    *  _**Image section**_: has an attractive view photo for the old town of Ghadames (_the heritage site of the city_), with text overlay of short decription to get user attantion, and get his intersting to know more about the place.
 
-  * _**Content section**_: contains a brief introduction of the most intersting information about Ghadames followed by three main headings with icons, including images and short descriptions.
+     * _**Content section**_: contains a brief introduction of the most intersting information about Ghadames followed by three main headings with icons, including images and short descriptions.
 
-    [Home Page](readme-images/home-page.PNG)
+        [Home Page](readme-images/home-page.PNG)
 
-  * _**Event section**_: this section will allow the user to see the city event type, date and location. It displays the event with small image, and will be updated to keep users up to date with upcoming events.
+    * _**Event section**_: this section will allow the user to see the city event type, date and location. It displays the event with small image, and will be updated to keep users up to date with upcoming events.
 
-    [Event section](readme-images/event-section.PNG)
+      [Event section](readme-images/event-section.PNG)
 
-### **Footer**
++ ### **Footer**
   
-  * It has the same linear gradient background color of the header, and It include an embedded Google Map for Ghadames location.
+    * It has the same linear gradient background color of the header, and It include an embedded Google Map for Ghadames location.
 
-  * It contains icons direct to social media pages open in separate tabs, and another link direct to contact page.
+    * It contains icons direct to social media pages open in separate tabs, and another link direct to contact page.
 
-  * The footer is valuable to the user as it encourages them to get in contact to plan their visit.
+    * The footer is valuable to the user as it encourages him to get in contact to plan his visit.
 
-### **About**
+       [Footer](readme-images/footer.PNG)
 
-  * About page contains more detailed information about Ghadames, divided into two headings, history and the old town, attached with images.
++ ### **About**
 
-### **Gallery**
+     * About page gives users more detailed information about Ghadames, divided into two headings, history and the old town, attached with images.
 
-  * A short video from the You Tube [channel of UNESCO](https://youtu.be/LCVldQzjyRY) has been embedded in the gallery page and some other photos with titles of description.
+      [About page](readme-images/about-page.PNG)
 
-----
++ ### **Gallery**
 
-## 3. Design
+    * This page provides the user with a short video showing the heritage places and describes the history of Ghadames, with supporting images of attractive places to visit.
+  
+    * This section will get the user excited to visit those places
+    
+      [Gallery page](readme-images/gallery-page.PNG)
 
-### **Colours**
++ ### **Contact**
 
- ![colours schema](assets/images/colours_schema.PNG)
+    * This page will allow the user to get in contact with site owner. He can get a help to plan his visit, or to get response for his enquiries, as he will get a confirmation message on successful submission.
 
-* Colors schema of gray and red has been used.
-
-* The red color pattren inspired from the traditonal colors of Ghadames culture.
-
-* This colours palette was generated at [Coolors](https://coolors.co/), and checked for contrast on [Contrast Grid](https://contrast-grid.eightshapes.com).
-
-### **Typography**
-
-Two fonts are used in the website.
-
-* [**Lato**](https://fonts.google.com/specimen/Lato#about) is a sans serif typeface family,  imported from Google Fonts. It has been used for the body content. 
-
-* **Serif** has been used for logo.
+      [Contact](readme-images/contact-page.PNG)
 
 ----
 
- ## 4. Used Technologies
+## 3. Future Features
 
- * Only `Html` and `CSS` languages are used in this project.
+   * I would use javascript to create an image slideshow instead of the main image on the Home page to make it more attractive and easily catching the user's attention.
 
- * Website has been hosted through [GitHub](https://github.com/) . 
+   * I would add an Email subscribe option to keep users updated with city events. 
 
- * The multi device mockup was generated via [Techsini](http://techsini.com/multi-mockup/index.php) website. 
+---
+
+## 4. Used Technologies
+
+  * Only `Html` and `CSS` languages are used in this project.
+
+  * Website has been hosted through [GitHub](https://github.com/) . 
+
+  * The multi device mockup (_The image attatched here in readme_) was generated via [Techsini](http://techsini.com/multi-mockup/index.php) website. 
    
  * Images compression was done via [Toolur](https://compressimage.toolur.com).
 
+ * Colours palette was generated at [Coolors](https://coolors.co/), and checked for contrast on [Contrast Grid](https://contrast-grid.eightshapes.com).
+ 
 ----
 
  ## 5. Testing and Validtor
