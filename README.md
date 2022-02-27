@@ -59,25 +59,23 @@
 
  This site provides historic information about **Ghadames**, _The one of the oldest pre-Saharan cities_, known as ''**the pearl of the desert**''. And about **The old town** of Ghadames which has been declared in *1986* as a [UNESCO World Heritage site](https://whc.unesco.org/en/list/)</a>. 
 
-![Ghadames logo](assets/images/site-layout.PNG)
+![Ghadames logo](readme-images/site-layout.PNG)
 #### [click here to view the site](https://amal-bb.github.io/Ghadames/)
 
 
 ### **User Stories**
+ 
+ As a *visiting user*, I would like to:
+ 
+ * Get knowledge of the most valuable information about Ghadames and its heritage town.  
 
-* As a *first time visitor user*, I would like to easily understand the site purpose. 
+ * View a city gallery contain a short video, and clear images.
 
- * As a *visitor user*, I would like to get knowledge of the most valuable information about Ghadames and its heritage town. 
+ * Find all upcoming events dates and locations.
 
- * As a *visitor user*, I would like to easily navigate through clear, organized, and attractive layout colors and images. 
+ * See the location of the city in the google map.
 
- * As a *visitor user*, I would like to view a city gallery contain a short video, and clear images.
-
- * As an *intersting and frequent visitor user*, I want to find all upcoming events dates and locations.
-
- * As an *intersting visitor user*, I want to see the location of the city in the google map.
-
- * As an *intersting visitor user*, I would like to be able to contact the site owner to get help for arranging my visit to the city or for any other enquiries.
+ * Contact the site owner to get help for arranging my visit to the city or for any other enquiries.
 
 
 ### **Site Goals**
@@ -98,41 +96,50 @@
 
 ## 2. Features
   
-* The website has been designed to be responsive on all devices sizes.
-
-* Website header which contains the navigation bar stick to the top of the page while scrolling down.
-
-* The navigation menu changed to a burger menu in small screen size devices.
-
-   ![Mobile menu](assets/images/burger-menu.PNG)
+* The website has been designed to be responsive on all device sizes.
 
 * The contact form in successful submits returns a confirmation message.
 
 ### **Header**
     
+  ![Header](readme-images/header.PNG)
 
-  ![Header](assets/images/header.PNG)
+  * The header situated on the top of each page has a attractive linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
 
-  * The header situated on the top of each page has a linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
+  * It stick to the top of the page while scrolling down to make navigation more easy for users.
   
-  * The logo very simply shows the city name using google font with a shadow, and it directs user to the home page in click on it.
+  * The logo very simply shows the city name using clear font styled with a shadow, and it linkes to home page.
 
-  * The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, Contact.
 
+### **Navigation Bar**
+
+* The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery and Contact.
+
+* The navigation bar will allow the user to easily navigate from page to page across all devices, as the navigation menu is changed to a burger menu in small screen size devices.
+
+   ![Mobile menu](readme-images/burger-menu.PNG)
    
   ### **Home page**
 
-  * The first section contains the main image slide of the old town of Ghadames (_the heritage site of the city_).
+  The Home page has a valuable content that should encourage a visiting user to navigate to other pages to know more about Ghadames. 
 
-  * The second section contains a brief introduction about Ghadames followed by three interesting headings with icons, including photos and short descriptions.
+  *  _**Image section**_: has an attractive view photo for the old town of Ghadames (_the heritage site of the city_), with text overlay of short decription to get user attantion, and get his intersting to know more about the place.
 
-  * The last section is the Event section which displays upcoming events dates and locations with small circle images.
+  * _**Content section**_: contains a brief introduction of the most intersting information about Ghadames followed by three main headings with icons, including images and short descriptions.
+
+    [Home Page](readme-images/home-page.PNG)
+
+  * _**Event section**_: this section will allow the user to see the city event type, date and location. It displays the event with small image, and will be updated to keep users up to date with upcoming events.
+
+    [Event section](readme-images/event-section.PNG)
 
 ### **Footer**
   
-  * It has the same linear gradient background color of the header, and It embedded Ghadames' location in Google Maps.
+  * It has the same linear gradient background color of the header, and It include an embedded Google Map for Ghadames location.
 
   * It contains icons direct to social media pages open in separate tabs, and another link direct to contact page.
+
+  * The footer is valuable to the user as it encourages them to get in contact to plan their visit.
 
 ### **About**
 
@@ -280,7 +287,7 @@ All reported bugs from testing has been fixed.
   
   1. At the first time you need to authorize, so press **Authorize Gigpod**, then you will be directed to Create Account page.
   
-  1. Press accept terms to start up your workspace in Gitpod.
+  1. Click accept terms to start up your workspace in Gitpod.
 
  ### **Via GitHub Pages**
   
@@ -299,7 +306,7 @@ All reported bugs from testing has been fixed.
 
 ## 7. Credits
 
-  * I'm grateful to my mentor (Mr.Spence / Mr.Rohit), our facilitator Kasia, and the student care team for their support.
+  * I'm grateful to my mentor (Mr.Spence / Mr.Rohit), our facilitator (Kasia), and the student care team for their support.
 
   * Code institute slack is a good community provides a lot of helpful information.
 
