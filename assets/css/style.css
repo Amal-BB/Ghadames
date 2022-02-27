@@ -20,7 +20,7 @@ html {
     --gray: #413F3F;
     --white: #ffffff;
     --linear_color: linear-gradient(to bottom right, #2C0202, #F71D1D, #F76969);
-    --nav_color: #2c0202b7;
+    --nav_color: rgba(44, 2, 2, 0.718);
     --nav_hover_color: #8d3030;
 }
 
@@ -139,7 +139,7 @@ nav {
     position: absolute;
     bottom: 5px;
     left: 0px;
-    background-color: rgb(65, 63, 63, 0.5);
+    background-color: rgba(65, 63, 63, 0.5) !important;
     width: 100%;
 }
 
@@ -555,7 +555,7 @@ input[type=submit]:hover {
         overflow: hidden;
         z-index: 997;
         padding: 30px 0 0 0;
-        background-color: var(--nav_color);
+        background-color: var(--nav_color) !important;
         transition: 0.5s linear;
     }
 
@@ -631,7 +631,7 @@ input[type=submit]:hover {
     }
 
     #nav-bar a {
-        background-color: var(--nav_color);
+        background-color: var(--nav_color) !important;
     }
 
     .active {
