@@ -80,13 +80,13 @@
 
 + ### **Site Goals**
 
-      * Introduce Ghadames, its civilization, and its heritage. 
+     * Introduce Ghadames, its civilization, and its heritage. 
 
-      * Show the historic information about Ghadames and the old town in an interesting way.
+    * Show the historic information about Ghadames and the old town in an interesting way.
 
-      * Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
-
-      * keep users up to date with any upcoming events for Ghadames.
+    * Provide users who are interesting to visit the city with important info related to a city location, culture, and weather. 
+    
+    * keep users up to date with any upcoming events for Ghadames.
 
       * Help users to plan their visit through a contact page.
 
@@ -147,11 +147,11 @@
 
      * _**Content section**_: contains a brief introduction of the most intersting information about Ghadames followed by three main headings with icons, including images and short descriptions.
 
-        [Home Page](readme-images/home-page.PNG)
+       ![Home Page](readme-images/home-page.PNG)
 
     * _**Event section**_: this section will allow the user to see the city event type, date and location. It displays the event with small image, and will be updated to keep users up to date with upcoming events.
 
-      [Event section](readme-images/event-section.PNG)
+       ![Event section](readme-images/event-section.PNG)
 
 + ### **Footer**
   
@@ -161,27 +161,27 @@
 
     * The footer is valuable to the user as it encourages him to get in contact to plan his visit.
 
-       [Footer](readme-images/footer.PNG)
+      ![Footer](readme-images/footer.PNG)
 
 + ### **About**
 
-     * About page gives users more detailed information about Ghadames, divided into two headings, history and the old town, attached with images.
+  * About page gives users more detailed information about Ghadames, divided into two headings, history and the old town, attached with images.
 
-      [About page](readme-images/about-page.PNG)
+    ![About page](readme-images/about-page.PNG)
 
 + ### **Gallery**
 
-    * This page provides the user with a short video showing the heritage places and describes the history of Ghadames, with supporting images of attractive places to visit.
+  * This page provides the user with a short video showing the heritage places and describes the history of Ghadames, with supporting images of attractive places to visit.
   
-    * This section will get the user excited to visit those places
+  * This section will get the user excited to visit those places
     
-      [Gallery page](readme-images/gallery-page.PNG)
+    ![Gallery page](readme-images/gallery-page.PNG)
 
 + ### **Contact**
 
-    * This page will allow the user to get in contact with site owner. He can get a help to plan his visit, or to get response for his enquiries, as he will get a confirmation message on successful submission.
+  * This page will allow the user to get in contact with site owner. He can get a help to plan his visit, or to get response for his enquiries, as he will get a confirmation message on successful submission.
 
-      [Contact](readme-images/contact-page.PNG)
+    ![Contact](readme-images/contact-page.PNG)
 
 ----
 
@@ -195,53 +195,88 @@
 
 ## 4. Used Technologies
 
-  * Only `Html` and `CSS` languages are used in this project.
++ ### **languages**
 
-  * Website has been hosted through [GitHub](https://github.com/) . 
+  * Only [Html5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS) languages are used in this project.
 
-  * The multi device mockup (_The image attatched here in readme_) was generated via [Techsini](http://techsini.com/multi-mockup/index.php) website. 
++ ### **Other Technologies**
+
+  * [GitHub](https://github.com/) is used to store the project code and host the Website. 
+
+  * [Techsini](http://techsini.com/multi-mockup/index.php) was used to generate The multi device mockup (_The image attatched here in readme_). 
    
- * Images compression was done via [Toolur](https://compressimage.toolur.com).
+  * [Toolur](https://compressimage.toolur.com) was used to compress the website images.
 
- * Colours palette was generated at [Coolors](https://coolors.co/), and checked for contrast on [Contrast Grid](https://contrast-grid.eightshapes.com).
+  * [Coolors](https://coolors.co/) was used to genetate colours palette , and [Contrast Grid](https://contrast-grid.eightshapes.com) was used to check the colours contrast.
  
+  * [Google Font](https://developers.google.com/fonts) were used to import the used font into the style.css file.
+
+  * [Font Awesome](https://kit.fontawesome.com) was used on all pages throughout the website to add icons.
+
 ----
 
  ## 5. Testing and Validtor
 
- * The responsivness view test for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+ * The responsivness view for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
- * The website has been tested in desktop browsers **Chrome** and **Firefox**, also has been shared with other users to get testing in many different devices like: _Iphon8, IphonSE, Iphon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
+ * The website was tested on **Chrome**, **IE** and **Firefox** browsers, also was shared with other users to get testing on a variety of devices such as : _Desktop, Iphon8, IphonSE, Iphon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
 
  * The final testing result after solving bugs was the site has responsive view, and works fine with no issues reported.
 
-### **Code Validation**
++ ### **Code Validation**
 
- * No errors were returned for `Html Code` when passing site URI through the offical [W3C Validator](https://validator.w3.org/).
+   * No errors were returned for `Html Code` when passing through the offical [W3C Validator](https://validator.w3.org/).
 
- * No errors were returned for `CSS Code` when passing site URI through the offical [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
+   * No errors were returned for `CSS Code` when passing through the offical [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
 
- * Project **Accessibility** has been checked through [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools, the result is shown below for both mobile and desktop.
+   * Project **Accessibility** has been checked through [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools, the result is shown below for both mobile and desktop.
 
-   ![Accessibility](assets/images/accessibility.PNG)
+     ![Accessibility](readme-images/accessibility.PNG)
 
 
- ### **Test Cases**
+ + ### **Test Cases**
 
- * When user of mobile device click on burger menu then the burger lines will rotate and navigation menu will appear, once he click again navigation menu will disappear and buger lines return to thier first position.
+   * Upon entering the site, user are greeted with an easily readable navigation bar to go to the page of their choice.
 
- * If user press submit button on contact page without filling any of required field (Name or Email), then warning message will appears in this fields.
+   * If user entered the site by a mobile device then he can click on burger lines which will rotate and navigation bar will drop down, once he click again on burger lines then the navigation bar will disappear and buger lines will return to thier first position.
 
-   > ![Warning message](assets/images/fill-message.PNG)
+   * Home page
+     * By entering the home page, the user will see an expressive photo about the heritage of the city with covered text, which lets him easily understand what the site is about.
+
+     * By scrolling down, the user will get knowledge with valuable information about the city in a brief description followed by 3 headings having icons, along with images and short descriptions.
+
+     * While moving down, the event section is showing the user _(event name, event image, location, and date)_. 
+
+   * Footer
+     * At the bottom of each page, there is a footer, where the user will see the city location in Google Maps, and once he clicks on _view larger map_ it will open the location on Google Maps in a new tab.
+
+     * The user will be easily direct to the contact page from the footer once he clicks on highlighted _contact us_, or alternatively, he can contact the site owner on social media which highlights the links to him. 
+
+   * About
+     * By clicking about in the navigation bar, the user will be directed to the page, then he will notice history having detailed information along with the image, and under it, there is the old town having detailed information along with the image too.
+
+   * Gallery  
+     * By clicking gallery in the navigation bar, the user will be directed to the page, where he will find a short video runs once he click on it. 
+
+     * Also he will see 7 images for many places he can visit.When the user click on any image, it will open in a new tab.
+
+   * Contact 
+     * The user can direct to the contact page through the navigation bar or the footer.
+
+     * On this page, the user will find greeting words with an image showing tourism, also a contact form that requests him to fill his name and email with a choice to write the subject text and then submit it.  
+
+     * In case the user press submit button without filling any of the required fields (Name or Email), then a warning message will appear in these fields, asking him to fill this field.
+
+      > ![Warning message](readme-images/fill-message.PNG)
  
- * If user fills the Name by one letter, or in case of typing incorrect email another warning message will appears in this fields.
+     * If the user fills the Name by one letter, or in case of typing an incorrect email another warning message will appear in this field.
 
-   > ![Warning message](assets/images/fill-by-lenght-msg.PNG)
- ![Warning message](assets/images/incorrect-email-msg.PNG)
+       > ![Warning message](readme-images/fill-by-lenght-msg.PNG)
+       ![Warning message](readme-images/incorrect-email-msg.PNG)
  
- * Once user fills all required field and then press submit button, he will get confirmation message.
+     * Once the user fills all required fields and then press submit button, he will get a confirmation message.
 
-    ![Confirmation message](assets/images/confirmation-msg.PNG)
+       ![Confirmation message](readme-images/confirmation-msg.PNG)
 
 
 ## 6. Bugs and Fixing
@@ -250,17 +285,17 @@ All reported bugs from testing has been fixed.
 
 ### **Fixed Bugs**
 
-* By tesing the website in small screen devices, the burger menu wasn't appear clear as it was close to the logo side, This issue was addressed by reducing logo `font size` and `padding` properties in style sheet for screens of maximum width 490 pixels.
+* By testing the website on small screen devices like ( _IphonSE_), I noticed that the burger menu didn't appear clear as it was close to the logo side, This issue was addressed by reducing logo `font size` and `padding` properties in the style sheet for screens of maximum width 490 pixels.
 
-  ![Mobile menu bug](assets/images/menu-bug.PNG)
+  ![Mobile menu bug](readme-images/menu-bug.PNG)
 
-* Another issue was reported in the small screen devices, that just a littel of the event description text was appeared and other text was covered by the image. This issue was solved by adjusting the text `Div` height.
+* Another issue was reported in the _IphonSE_, that just a little of the event description text appeared and the remaining was covered by the image. This issue was solved by adjusting the text `Div` height.
 
-  ![Event text bug](assets/images/event-bug.PNG)
+  ![Event text bug](readme-images/event-bug.PNG)
 
-* A Desktop moniter user reported that there was an issue of the place of Email label in contact form as shown in the image. By changing the `display` property of the label the issue was fixed.
+* A Desktop monitor user reported that there was an issue with the place of the Email label in the contact form as shown in the image. By changing the `display` property of the label the issue was fixed
 
-  > ![Form label bug](assets/images/form-bug.PNG)
+  > ![Form label bug](readme-images/form-bug.PNG)
 
 * When I tested the website on a mobile device and tablet, I noticed changes in the size of most content texts during screen orientation change, which cause a messy look for content. So, by Setting the `text size adjust` for all browsers to 100%, the issue was fixed.
 
@@ -271,31 +306,11 @@ All reported bugs from testing has been fixed.
     -ms-text-size-adjust: 100%;
     }
     ```
-------
-
-   ## 5. Content and Media 
-   
-   * Content information and images are collected from many resourses like: [UNESCO](https://whc.unesco.org/en/list/362/gallery/), [Wikipidia](https://https://en.wikipedia.org/wiki/Ghadames), [ResershGate](https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye), [Libya Adventures](https://libyaadventures.com/portfolio/ghadames/), [Aljazeera](https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert),
-  [Islamic Architectural Heritage](https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames), [Middle East Revised](https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/), [Wikimedia](https://commons.wikimedia.org/), and some other free copyright images can be found in Google. 
-
-   * Burger menu for mobile devices follows a tutorial from
-   [Tyler Potts](https://www.youtube.com/watch?v=kKRpeFk613I).
-
-   * Image gallery style in gallery page follows a tutorial from [W3 Schools](https://https://www.w3schools.com/css/css_image_gallery.asp).
-
-   * Linear gradients backgroung for header and footer follows CSS Gradients in [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp).
-  
-
-   * Gallery video is embedded from [UNESCO You Tube channel](https://youtu.be/LCVldQzjyRY).
-
-   * [Google Font](https://developers.google.com/fonts) is impotred to use for content font.
-
-   * Icons used in this project are imported from [Font Awesome](https://kit.fontawesome.com).
-
 ----
+
 ## 7. Deployment
   
-  ### **Via Gitpod**
+* ### **Via Gitpod**
   
   The project code has been run in Gitpod using following steps:
 
@@ -311,7 +326,7 @@ All reported bugs from testing has been fixed.
   
   1. Click accept terms to start up your workspace in Gitpod.
 
- ### **Via GitHub Pages**
+* ### **Via GitHub Pages**
   
   The project was deployed via Github pages by using following steps:
 
@@ -325,11 +340,32 @@ All reported bugs from testing has been fixed.
   
   1. Click **Save**. The site now deployed and the published site link will be created.
 
+-----
 
 ## 7. Credits
+ 
+ * Content and Media 
+   
+   * Content information and images are collected from many resourses such as: [UNESCO](https://whc.unesco.org/en/list/362/gallery/), [Wikipidia](https://https://en.wikipedia.org/wiki/Ghadames), [ResershGate](https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye), [Libya Adventures](https://libyaadventures.com/portfolio/ghadames/), [Aljazeera](https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert),
+  [Islamic Architectural Heritage](https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames), [Middle East Revised](https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/), [Wikimedia](https://commons.wikimedia.org/), and some other free copyright images can be found in Google. 
 
-  * I'm grateful to my mentor (Mr.Spence / Mr.Rohit), our facilitator (Kasia), and the student care team for their support.
+   * Burger menu for mobile devices follows a tutorial from
+   [Tyler Potts](https://www.youtube.com/watch?v=kKRpeFk613I).
 
-  * Code institute slack is a good community provides a lot of helpful information.
+   * Image gallery style in gallery page follows a tutorial from [W3 Schools](https://https://www.w3schools.com/css/css_image_gallery.asp).
+
+   * Linear gradients backgroung for header and footer follows CSS Gradients in [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp).
+  
+
+   * Gallery video is embedded from [UNESCO You Tube channel](https://youtu.be/LCVldQzjyRY).
+
+   
+ * Acknowledgements
+ 
+   * I'm grateful to my mentor (Mr.Spence / Mr.Rohit) for helpful feedback.
+
+   * Our facilitator (Kasia), and the student care team for their support.
+
+   * Code institute slack is a good community that provides a lot of helpful information.
 
    
