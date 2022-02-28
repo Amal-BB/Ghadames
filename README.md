@@ -364,7 +364,7 @@ All reported bugs from testing has been fixed.
 
 ## 9. Credits
  
- * Content and Media 
+ * ### **Content and Media** 
    
    * Content information and images are collected from many resourses such as: [UNESCO](https://whc.unesco.org/en/list/362/gallery/), [Wikipidia](https://https://en.wikipedia.org/wiki/Ghadames), [ResershGate](https://https://www.researchgate.net/publication/320176979_Interpretation_of_sustainable_desert_architecture_in_Ghadames_city_Libye), [Libya Adventures](https://libyaadventures.com/portfolio/ghadames/), [Aljazeera](https://www.aljazeera.com/gallery/2014/5/1/libyas-pearl-of-the-desert),
   [Islamic Architectural Heritage](https://www.islamicarchitecturalheritage.com/listings/old-town-of-ghadames), [Middle East Revised](https://middleeastrevised.com/2014/04/12/the-unique-houses-of-ghadames-libya/), [Wikimedia](https://commons.wikimedia.org/), and some other free copyright images can be found in Google. 
@@ -380,7 +380,7 @@ All reported bugs from testing has been fixed.
    * Gallery video is embedded from [UNESCO You Tube channel](https://youtu.be/LCVldQzjyRY).
 
    
- * Acknowledgements
+ * ### **Acknowledgements**
  
    * I'm grateful to my mentor (Mr.Spence / Mr.Rohit) for helpful feedback.
 
