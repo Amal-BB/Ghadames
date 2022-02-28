@@ -376,8 +376,9 @@ All reported bugs from testing has been fixed.
 
    * Linear gradients backgroung for header and footer follows CSS Gradients in [W3 Schools](https://www.w3schools.com/css/css3_gradients.asp).
   
-
    * Gallery video is embedded from [UNESCO You Tube channel](https://youtu.be/LCVldQzjyRY).
+
+   * Setting text size adjust property solution in CSS file was taken from [stackoverflow](https://stackoverflow.com/questions/40892327why-is-font-size-changing-depending-on-portrait-or-landscape-for-mobile-devices).
 
    
  * ### **Acknowledgements**
