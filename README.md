@@ -1,4 +1,3 @@
-![Ghadames logo](readme-images/ghadames_logo.PNG)
 
 # Ghadames - Project Portfolio 1
 
@@ -11,40 +10,48 @@
 
     + [Site Goals](#site-goals)
 
-1. [Features](#features)
-
-    +  [Header](#header)
-
-    + [Home page](#home-page)
-
-    +  [Footer](#footer)
-
-    + [About](#about)
-
-    +  [Gallery](#gallery)
-
-    + [Contact](#contact)
-
 1. [Design](#design)
    
    + [Colours](#colours)
 
    + [Typography](#typography)
 
+   + [Imagery](#Imagery)
+
+1. [Features](#features)
+
+    +  [Header](#header)
+
+    + [Navigation Bar](#navigation-bar)
+
+    + [Home page](#home-page)
+
+    + [Footer](#footer)
+
+    + [About](#about)
+
+    + [Gallery](#gallery)
+
+    + [Contact](#contact)
+
+1. [Future Features](#future-features)  
+
+1. [Used Technologies](#used-technologies)
+
+   + [Languages](#languages)
+   
+   + [Other Technologies](#other-technologies)
+
 1. [Testing and Validator](#testing-and-validator)
    
-   + [Code Validator](#code-validator)
+   + [Code Validation](#code-validation)
 
    + [Test Cases](#test-cases)
 
-1. [Bugs and fixes](#bugs-and-fixes)
+1. [Bugs and fixeing](#bugs-and-fixing)
    
    + [Fixed Bugs](#fixed-bugs)
-
-1. [Used Technologies](#used-technologies)
   
-1. [Content and Media](#content-and-media)
-
 1. [Deployment](#deployment)
   
    + [Via Gitpod](#via-gitpod)
@@ -52,6 +59,10 @@
    + [Via GitHub Pages](#via-github-pages)
 
 1. [Credits](#credits)
+   
+   + [Content and Media](#content-and-media)
+
+   + [Acknowledgements](#acknowledgements)
 
 ------
 
@@ -88,9 +99,9 @@
     
     * keep users up to date with any upcoming events for Ghadames.
 
-      * Help users to plan their visit through a contact page.
+    * Help users to plan their visit through a contact page.
 
-      * Display a gallery of the most attractive places in the city that users can enjoy while visiting.
+    * Display a gallery of the most attractive places in the city that users can enjoy while visiting.
 
 ----
 ## 2. Design
@@ -114,7 +125,8 @@
    * The red color pattren inspired from the traditonal colors of Ghadames culture.
    
    * The subtitle of the city name logo used to get user inquisitiveness to find out more about the city.
-
+   
+     ![Ghadames logo](readme-images/ghadames_logo.PNG)
 ----
 
 ## 3. Features
@@ -185,7 +197,7 @@
 
 ----
 
-## 3. Future Features
+## 4. Future Features
 
    * I would use javascript to create an image slideshow instead of the main image on the Home page to make it more attractive and easily catching the user's attention.
 
@@ -193,11 +205,12 @@
 
 ---
 
-## 4. Used Technologies
+## 5. Used Technologies
 
 + ### **languages**
 
   * Only [Html5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS) languages are used in this project.
+
 
 + ### **Other Technologies**
 
@@ -215,7 +228,7 @@
 
 ----
 
- ## 5. Testing and Validtor
+ ## 6. Testing and Validtor
 
  * The responsivness view for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
@@ -279,7 +292,7 @@
        ![Confirmation message](readme-images/confirmation-msg.PNG)
 
 
-## 6. Bugs and Fixing
+## 7. Bugs and Fixing
 
 All reported bugs from testing has been fixed.
 
@@ -308,7 +321,7 @@ All reported bugs from testing has been fixed.
     ```
 ----
 
-## 7. Deployment
+## 8. Deployment
   
 * ### **Via Gitpod**
   
@@ -342,7 +355,7 @@ All reported bugs from testing has been fixed.
 
 -----
 
-## 7. Credits
+## 9. Credits
  
  * Content and Media 
    
