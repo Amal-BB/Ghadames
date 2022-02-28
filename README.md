@@ -48,7 +48,7 @@
 
    + [Test Cases](#test-cases)
 
-1. [Bugs and fixeing](#bugs-and-fixing)
+1. [Bugs and fixing](#bugs-and-fixing)
    
    + [Fixed Bugs](#fixed-bugs)
   
@@ -75,18 +75,25 @@
 
 
 + ### **User Stories**
- 
+
+
   As a *visiting user*, I would like to:
- 
+    
+     * Easily understand what the site is about and learn more about the city. 
+
+     * Easily navigate throughout the site to find the information.
+    
      * Get knowledge of the most valuable information about Ghadames and its heritage town.  
 
-     * View a city gallery contain a short video, and clear images.
+     * View a city gallery containing a short video and clear images.
 
      * Find all upcoming events dates and locations.
 
-     * See the location of the city in the google map.
+     * See the location of the city on google map.
 
-     * Contact the site owner to get help for arranging my visit to the city or for any other enquiries.
+     * find social media links.
+
+     * Contact the site owner to get help for arranging my visit to the city or for any other inquiries.
 
 
 + ### **Site Goals**
@@ -122,30 +129,30 @@
 
 + ### **Imagery**
 
-   * The red color pattren inspired from the traditonal colors of Ghadames culture.
+   * The red color pattern is inspired by the traditional colors of Ghadames culture.
    
-   * The subtitle of the city name logo used to get user inquisitiveness to find out more about the city.
+   * The subtitle of the city name logo is used to get user inquisitiveness to find out more about the city.
    
      ![Ghadames logo](readme-images/ghadames_logo.PNG)
 ----
 
 ## 3. Features
   
-* The website has been designed to be responsive on all device sizes.
+The website has been designed to be responsive on all device sizes.
 
 + ### **Header**
 
-    * The header situated on the top of each page has a attractive linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
+    * The header situated on the top of each page has an attractive linear-gradient background color, contains the city logo on the left and the navigation bar on the right.
 
-    * It stick to the top of the page while scrolling down to make navigation more easy for users.
+    * It sticks to the top of the page while scrolling down to make navigation easier for users.
   
-    * The logo is very simply shows the city name using clear font styled with a shadow, and it linkes to home page.
+    * The logo very simply shows the city name using clear font styled with a shadow, and it linked to the home page.
 
       ![Header](readme-images/header.PNG)
 
 + ### **Navigation Bar**
 
-    * The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery and Contact.
+    * The navigation bar is clear and easy to use contains 4 links: Home, About, Gallery, and Contact.
 
     * The navigation bar will allow the user to easily navigate from page to page across all devices, as the navigation menu is changed to a burger menu in small screen size devices.
 
@@ -153,23 +160,23 @@
    
 + ### **Home page**
 
-  The Home page has a valuable content that should encourage a visiting user to navigate to other pages to know more about Ghadames. 
+  The Home page has valuable content that should encourage a visiting user to navigate to other pages to know more about Ghadames. 
 
-    *  _**Image section**_: has an attractive view photo for the old town of Ghadames (_the heritage site of the city_), with text overlay of short decription to get user attantion, and get his intersting to know more about the place.
+    *  _**Image section**_: has an attractive view photo for the old town of Ghadames (_the heritage site of the city_), with text overlay of short description to get user attention, and get his interesting to know more about the place.
 
-     * _**Content section**_: contains a brief introduction of the most intersting information about Ghadames followed by three main headings with icons, including images and short descriptions.
+     * _**Content section**_: contains a brief introduction of the most interesting information about Ghadames followed by three main headings with icons, including images and short descriptions.
 
        ![Home Page](readme-images/home-page.PNG)
 
-    * _**Event section**_: this section will allow the user to see the city event type, date and location. It displays the event with small image, and will be updated to keep users up to date with upcoming events.
+    * _**Event section**_: this section will allow the user to see the city event type, date, and location. It displays the event with a small image and will be updated to keep users up to date with upcoming events.
 
        ![Event section](readme-images/event-section.PNG)
 
 + ### **Footer**
   
-    * It has the same linear gradient background color of the header, and It include an embedded Google Map for Ghadames location.
+    * It has the same linear gradient background color of the header, and It includes an embedded Google Map for Ghadames location.
 
-    * It contains icons direct to social media pages open in separate tabs, and another link direct to contact page.
+    * It contains icons direct to social media pages open in separate tabs, and another link to the contact page.
 
     * The footer is valuable to the user as it encourages him to get in contact to plan his visit.
 
@@ -191,7 +198,7 @@
 
 + ### **Contact**
 
-  * This page will allow the user to get in contact with site owner. He can get a help to plan his visit, or to get response for his enquiries, as he will get a confirmation message on successful submission.
+  * This page will allow the user to get in contact with the site owner. He can get help to plan his visit, or to get a response for his inquiries, as he will get a confirmation message on successful submission.
 
     ![Contact](readme-images/contact-page.PNG)
 
@@ -199,7 +206,7 @@
 
 ## 4. Future Features
 
-   * I would use javascript to create an image slideshow instead of the main image on the Home page to make it more attractive and easily catching the user's attention.
+   * I would use javascript to create an image slideshow instead of the main image on the Home page to make it more attractive and easily catch the user's attention.
 
    * I would add an Email subscribe option to keep users updated with city events. 
 
@@ -230,11 +237,11 @@
 
  ## 6. Testing and Validtor
 
- * The responsivness view for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+ * The responsive view for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
- * The website was tested on **Chrome**, **IE** and **Firefox** browsers, also was shared with other users to get testing on a variety of devices such as : _Desktop, Iphon8, IphonSE, Iphon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
+ * The website was tested on **Chrome**, **IE**, and **Firefox** browsers also were shared with other users to get testing on a variety of devices such as: _Desktop, iPhon8, iPhone, iPhon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
 
- * The final testing result after solving bugs was the site has responsive view, and works fine with no issues reported.
+ * The final testing result after solving bugs was the site has a responsive view and works fine with no issues reported.
 
 + ### **Code Validation**
 
@@ -298,11 +305,11 @@ All reported bugs from testing has been fixed.
 
 ### **Fixed Bugs**
 
-* By testing the website on small screen devices like ( _IphonSE_), I noticed that the burger menu didn't appear clear as it was close to the logo side, This issue was addressed by reducing logo `font size` and `padding` properties in the style sheet for screens of maximum width 490 pixels.
+* By testing the website on small screen devices like _iPhonSE_, I noticed that the burger menu didn't appear clear as it was close to the logo side, This issue was addressed by reducing logo `font size` and `padding` properties in the style sheet for screens of maximum width 490 pixels.
 
   ![Mobile menu bug](readme-images/menu-bug.PNG)
 
-* Another issue was reported in the _IphonSE_, that just a little of the event description text appeared and the remaining was covered by the image. This issue was solved by adjusting the text `Div` height.
+* Another issue was reported in the _iPhonSE_, that just a little of the event description text appeared and the remaining was covered by the image. This issue was solved by adjusting the text `Div` height.
 
   ![Event text bug](readme-images/event-bug.PNG)
 
