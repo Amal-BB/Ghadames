@@ -239,7 +239,7 @@ The website has been designed to be responsive on all device sizes.
 
  * The responsive view for the site has been tested in a range of screen sizes via [Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
- * The website was tested on **Chrome**, **IE**, and **Firefox** browsers also were shared with other users to get testing on a variety of devices such as: _Desktop, iPhon8, iPhone, iPhon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
+ * The website was tested on **Chrome**, **IE**, and **Firefox** browsers, also was shared with other users to get testing on a variety of devices such as: _Desktop, iPhon8, iPhone, iPhon12, Nokia 2.3, Huawei, Galaxy A12 and Tablet_.
 
  * The final testing result after solving bugs was the site has a responsive view and works fine with no issues reported.
 
